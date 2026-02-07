@@ -32,6 +32,7 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
       <p>I help software companies design measurement systems that model their operations as they actually are. We help product, engineering, sales, and operations teams analyze their processes and find opportunities for improvements, both within and across functions.
         </p>
         <p>My practice is grounded in <em>The Presence Calculus</em>, a rigorous mathematical approach rooted in stochastic process theory. It produces deterministic, inspectable, context-specific metrics—and lets you reason about cause and effect with confidence.
+        No other approach to measurement in the software industry can claim that.
          </p>
       <p>Through The Polaris Advisor Program, I work directly with function leaders and teams to demystify difficult measurement problems and design systems to manage your specific operational challenges. </p> 
         <p> You bring deep knowledge of your business; I bring expertise in measurement design. Together, we create measurement systems your leaders and teams can trust.</p>
@@ -50,8 +51,9 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
       </div>
       <div class="prop">
         <h3>Deterministic Measurement</h3>
-        <p>My approach uses <em>sample path analysis</em>—a technique rooted in calculus not statistics, and backed by 50 years of mathematics. </p>
-        <p>It produces deterministic measurements and transparent cause-effect analyses. No other measurement approach in the software industry can claim this.</p>
+        <p>My approach uses <em>sample path analysis</em>—a technique rooted in calculus not statistics. It's backed by 50 years of mathematics from operations research. </p>
+        <p>It produces deterministic measurements and transparent cause-effect explanations, and that leads to better, faster decisions.</p>
+        <p>You can skip the endless debates about what the data <em>might</em> be saying.</p>
       </div>
       <div class="prop">
         <h3>Advisory-First Delivery</h3>
