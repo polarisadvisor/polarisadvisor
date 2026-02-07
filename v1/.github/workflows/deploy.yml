@@ -38,13 +38,16 @@ jobs:
         working-directory: ./v1
         run: npm run build
 
+      - name: List build output (debug)
+        run: ls -la ./v1/_site
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./v1/_site
+          path: v1/_site
 
   deploy:
     environment:
