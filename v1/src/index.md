@@ -8,8 +8,8 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
   <div class="container">
     <div class="hero-content">
       <div class="hero-text">
-        <h1>Don't adapt to a measurement framework.</h1>
-        <p class="hero-subtitle">Industry standard frameworks are built for benchmarking, not decision-making. They expect you to adapt to their unproven theories, rather than identifying and measuring what <em>you</em> need to improve to compete. I help you build <em>bespoke</em> measurement systems that do.</p>
+        <h1>Are you making decisions with metrics, or starting conversations? </h1>
+        <p class="hero-subtitle">Industry standard metrics frameworks are built for benchmarking, not decision-making. They expect you to implement their frameworks just so you can <em>start</em> a conversation about performance. Decisions? That's not in scope. Why not skip all that? Identify and measure what <em>you</em> need to improve to compete instead. </p>
         <div class="hero-cta">
           <a href="/contact/" class="btn btn-primary">Start a measurement conversation</a>
           <div class="secondary-links">
@@ -28,9 +28,12 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
 <section class="intro-personal">
   <div class="container">
     <div class="intro-content">
-      <h2>I'm Krishna Kumar</h2>
-      <p>I help software companies design measurement systems that model their operations as they actually are. My practice is grounded in The Presence Calculus, a rigorous mathematical framework rooted in stochastic process theory that produces deterministic, inspectable, context-specific metrics—and lets you reason about cause and effect with rigor.</p>
-      <p>Through The Polaris Advisor Program, I work directly with leaders and teams to demystify difficult measurement problems and design bespoke measurement systems for your specific operational challenges. </p> 
+      <h2>I'm Dr. Krishna Kumar</h2>
+      <p>I help software companies design measurement systems that model their operations as they actually are. We help product, engineering, sales, and operations teams analyze their processes and find opportunities for improvements, both within and across functions.
+        </p>
+        <p>My practice is grounded in <em>The Presence Calculus</em>, a rigorous mathematical approach rooted in stochastic process theory. It produces deterministic, inspectable, context-specific metrics—and lets you reason about cause and effect with confidence.
+         </p>
+      <p>Through The Polaris Advisor Program, I work directly with function leaders and teams to demystify difficult measurement problems and design systems to manage your specific operational challenges. </p> 
         <p> You bring deep knowledge of your business; I bring expertise in measurement design. Together, we create measurement systems your leaders and teams can trust.</p>
     </div>
   </div>
@@ -41,20 +44,20 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
     <div class="props-grid">
       <div class="prop">
         <h3>Custom Measurement Models</h3>
-        <p>I don't sell dashboards or tools, though I've built plenty of them.</p>
+        <p>I don't sell dashboards or metrics tools, though I've built plenty of them.</p>
         <p>I design measurement systems specific to your operational flows—built from your reality, not statistics.</p>
         <p>Your context determines the model, not a tool vendor's template.</p>
       </div>
       <div class="prop">
         <h3>Deterministic Measurement</h3>
-        <p>My approach uses sample path analysis—a technique supported by 50 years of mathematics, that produces deterministic measurements and transparent cause-effect analyses.</p>
-        <p>No other measurement approach in the software industry can claim this.</p>
+        <p>My approach uses <em>sample path analysis</em>—a technique rooted in calculus not statistics, and backed by 50 years of mathematics. </p>
+        <p>It produces deterministic measurements and transparent cause-effect analyses. No other measurement approach in the software industry can claim this.</p>
       </div>
       <div class="prop">
         <h3>Advisory-First Delivery</h3>
-        <p>Sophisticated tools based on years of R&D support the work—but you never pay for them separately.</p>
-        <p>My deliverable is insight: a fit-for-context measurement system, instrumentation guidance, and the practice to maintain it.</p>
-        <p>There is a learning curve to these techniques. I compress this significantly.</p>
+        <p>I bring sophisticated tools based on years of R&D and fieldwork to the table—but you never pay for them separately.</p>
+        <p>My deliverables are insight, a fit-for-context measurement system, instrumentation guidance, and decision processes.</p>
+        <p>There is a learning curve to these techniques. I compress this significantly, giving you actionable advice faster.</p>
       </div>
     </div>
   </div>
@@ -66,12 +69,12 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
 
     <div class="credibility-item">
       <h3>I Work in the Open</h3>
-      <p>The underlying theory and tooling behind my practice is published openly. The <a href="{{ site.github.presence }}" target="_blank" rel="noopener">Presence Calculus Project</a> provides the mathematical foundation; the <a href="{{ site.github.polaris }}" target="_blank" rel="noopener">open-source tools</a> let you pressure test the ideas on your own, if you choose. My goal is to help clients who see what these ideas can do—and want to apply them with confidence and expert guidance.</p>
+      <p>The underlying theory and tooling behind my practice is published openly. The <a href="{{ site.github.presence }}" target="_blank" rel="noopener">Presence Calculus Project</a> provides the mathematical foundation; the <a href="{{ site.github.polaris }}" target="_blank" rel="noopener">open-source tools</a> let you pressure test the ideas on your own, if you choose. My goal is to help clients who see what these ideas can do—and want to apply them with confidence and expert guidance in their context.</p>
     </div>
 
     <div class="credibility-item">
       <h3>I Explain the Why</h3>
-      <p><a href="{{ site.dispatch.url }}" target="_blank" rel="noopener">Polaris Flow Dispatch</a> talks about my philosophy of measurement, modeling, and analysis of operational processes. Often unorthodox and counter to conventional wisdom in the software industry, but always backed with reason and mathematical proof. Clear thinking, shared publicly.</p>
+      <p><a href="{{ site.dispatch.url }}" target="_blank" rel="noopener">Polaris Flow Dispatch</a> talks about my philosophy of measurement, modeling, and analysis of operational processes. Often unorthodox and counter to conventional wisdom in the software industry, but always backed with reasoning and mathematical proof. Rigorous thinking, shared publicly.</p>
     </div>
 
     <div class="credibility-item">
@@ -89,12 +92,12 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
     <h3>I am not the right fit if you want:</h3>
     <ul>
       <li>An install-a-dashboard solution</li>
-      <li>Implement the latest industry-buzzword metrics framework</li>
-      <li>Generic industry benchmarks or scorecard metrics</li>
       <li>Simplistic productivity metrics</li>
+      <li>Someone to implement the latest buzzword-compliant metrics framework</li>
+      <li>Someone to help you adopt generic industry benchmarks or scorecards</li>
       <li>Instant answers without deeply engaging the system to understand how it works</li>  
     </ul>
 
-    <p>If you're looking for measurement techniques that adapt to your business reality, not the other way around, let's <a href="/contact/">start a conversation</a>.</p>
+    <p>If you're looking for better measurement techniques that adapt to your business reality, and not the other way around, let's <a href="/contact/">start a conversation</a>.</p>
   </div>
 </section>
