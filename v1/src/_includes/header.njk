@@ -1,13 +1,13 @@
 <header class="site-header">
   <div class="container">
     <div class="header-content">
-      <a href="/" class="site-logo">Polaris Advisor</a>
+      <a href="{{ '/' | url }}" class="site-logo">Polaris Advisor</a>
 
       <!-- Quick links (visible on mobile) -->
       <nav class="site-nav-quick">
-        <a href="/">Home</a>
-        <a href="/open-source/">Open Source</a>
-        <a href="/contact/">Contact</a>
+        <a href="{{ '/' | url }}">Home</a>
+        <a href="{{ '/open-source/' | url }}">Open Source</a>
+        <a href="{{ '/contact/' | url }}">Contact</a>
       </nav>
 
       <!-- Hamburger button -->
@@ -17,11 +17,11 @@
 
       <!-- Full navigation (desktop: inline, mobile: slide-out) -->
       <nav class="site-nav-full" aria-label="Main navigation">
-        <a href="/">Home</a>
-        <a href="/program/">Program</a>
-        <a href="/approach/">Approach</a>
-        <a href="/open-source/">Open Source</a>
-        <a href="/contact/">Contact</a>
+        <a href="{{ '/' | url }}">Home</a>
+        <a href="{{ '/program/' | url }}">Program</a>
+        <a href="{{ '/approach/' | url }}">Approach</a>
+        <a href="{{ '/open-source/' | url }}">Open Source</a>
+        <a href="{{ '/contact/' | url }}">Contact</a>
       </nav>
     </div>
   </div>

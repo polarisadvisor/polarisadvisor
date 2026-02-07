@@ -11,15 +11,15 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
         <h1>Are you making decisions with metrics, or starting conversations? </h1>
         <p class="hero-subtitle">Industry standard metrics frameworks are built for benchmarking, not decision-making. They expect you to implement their frameworks just so you can <em>start</em> a conversation about performance. Decisions? That's not in scope. Why not skip all that? Identify and measure what <em>you</em> need to improve to compete instead. </p>
         <div class="hero-cta">
-          <a href="/contact/" class="btn btn-primary">Start a measurement conversation</a>
+          <a href="{{ '/contact/' | url }}" class="btn btn-primary">Start a measurement conversation</a>
           <div class="secondary-links">
             <a href="{{ site.dispatch.url }}">Read Polaris Flow Dispatch</a>
-            <a href="/open-source/">Explore open-source tools</a>
+            <a href="{{ '/open-source/' | url }}">Explore open-source tools</a>
           </div>
         </div>
       </div>
       <div class="hero-image">
-        <img src="/assets/images/krishna-kumar.jpg" alt="Krishna Kumar, Polaris Advisor" class="hero-photo">
+        <img src="{{ '/assets/images/krishna-kumar.jpg' | url }}" alt="Krishna Kumar, Polaris Advisor" class="hero-photo">
       </div>
     </div>
   </div>
@@ -98,6 +98,6 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
       <li>Instant answers without deeply engaging the system to understand how it works</li>  
     </ul>
 
-    <p>If you're looking for better measurement techniques that adapt to your business reality, and not the other way around, let's <a href="/contact/">start a conversation</a>.</p>
+    <p>If you're looking for better measurement techniques that adapt to your business reality, and not the other way around, let's <a href="{{ '/contact/' | url }}">start a conversation</a>.</p>
   </div>
 </section>
