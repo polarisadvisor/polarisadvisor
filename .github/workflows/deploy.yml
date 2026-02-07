@@ -30,9 +30,20 @@ jobs:
         working-directory: ./v1
         run: npm ci
 
+      - name: Set path prefix
+        id: path-prefix
+        run: |
+          if [[ "${{ github.event.repository.name }}" == "${{ github.repository_owner }}.github.io" ]]; then
+            echo "prefix=/" >> "$GITHUB_OUTPUT"
+          else
+            echo "prefix=/${{ github.event.repository.name }}/" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Build with Eleventy
         working-directory: ./v1
         run: npm run build
+        env:
+          ELEVENTY_PATH_PREFIX: ${{ steps.path-prefix.outputs.prefix }}
 
       - name: List build output (debug)
         run: ls -la ./v1/_site

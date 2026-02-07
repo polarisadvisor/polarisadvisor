@@ -9,8 +9,11 @@ module.exports = function(eleventyConfig) {
   // Watch CSS files for changes
   eleventyConfig.addWatchTarget("src/css/");
 
+  const pathPrefix = process.env.ELEVENTY_PATH_PREFIX || "/";
+
   // Set custom directories
   return {
+    pathPrefix,
     dir: {
       input: "src",
       output: "_site",
