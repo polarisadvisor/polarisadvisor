@@ -1,0 +1,6 @@
+v1/node_modules/
+v1/_site/
+.idea
+.DS_Store
+*.log
+.env
