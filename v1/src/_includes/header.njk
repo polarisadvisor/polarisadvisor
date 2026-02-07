@@ -2,7 +2,21 @@
   <div class="container">
     <div class="header-content">
       <a href="/" class="site-logo">Polaris Advisor</a>
-      <nav class="site-nav">
+
+      <!-- Quick links (visible on mobile) -->
+      <nav class="site-nav-quick">
+        <a href="/">Home</a>
+        <a href="/open-source/">Open Source</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+
+      <!-- Hamburger button -->
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+
+      <!-- Full navigation (desktop: inline, mobile: slide-out) -->
+      <nav class="site-nav-full" aria-label="Main navigation">
         <a href="/">Home</a>
         <a href="/program/">Program</a>
         <a href="/approach/">Approach</a>
@@ -12,3 +26,4 @@
     </div>
   </div>
 </header>
+<div class="nav-overlay"></div>

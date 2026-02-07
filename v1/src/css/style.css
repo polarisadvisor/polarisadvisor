@@ -124,20 +124,113 @@ li {
   color: var(--color-primary-light);
 }
 
-.site-nav {
+/* Quick links (visible on mobile) */
+.site-nav-quick {
+  display: none; /* Hidden on desktop */
+  gap: var(--spacing-sm);
+}
+
+.site-nav-quick a {
+  color: var(--color-text);
+  font-weight: 500;
+  font-size: 0.875rem;
+  padding: var(--spacing-xs);
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.site-nav-quick a:hover {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+/* Full navigation (desktop) */
+.site-nav-full {
   display: flex;
   gap: var(--spacing-md);
 }
 
-.site-nav a {
+.site-nav-full a {
   color: var(--color-text);
   font-weight: 500;
   padding: var(--spacing-xs) 0;
 }
 
-.site-nav a:hover {
+.site-nav-full a:hover {
   color: var(--color-primary);
   text-decoration: none;
+}
+
+/* Hamburger button (hidden on desktop) */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  padding: var(--spacing-xs);
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.hamburger {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--color-primary);
+  position: relative;
+  transition: background 0.3s ease;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  background: var(--color-primary);
+  transition: transform 0.3s ease;
+}
+
+.hamburger::before {
+  top: -7px;
+}
+
+.hamburger::after {
+  bottom: -7px;
+}
+
+/* Hamburger animation when open */
+.nav-toggle.active .hamburger {
+  background: transparent;
+}
+
+.nav-toggle.active .hamburger::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.nav-toggle.active .hamburger::after {
+  transform: rotate(-45deg);
+  bottom: 0;
+}
+
+/* Overlay */
+.nav-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nav-overlay.active {
+  display: block;
+  opacity: 1;
 }
 
 /* ==================== Footer ==================== */
@@ -227,6 +320,13 @@ section {
   font-size: 0.95rem;
 }
 
+.secondary-links a {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+
 .hero-image {
   display: flex;
   justify-content: center;
@@ -262,6 +362,8 @@ section {
   font-size: 1.125rem;
   line-height: 1.7;
   margin-bottom: var(--spacing-md);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .intro-content p:last-child {
@@ -271,13 +373,16 @@ section {
 /* ==================== Buttons ==================== */
 .btn {
   display: inline-block;
-  padding: 0.75rem 2rem;
+  padding: 1rem 2rem;
   font-weight: 600;
   text-align: center;
   text-decoration: none;
   border-radius: 4px;
   transition: all 0.2s ease;
   border: 2px solid transparent;
+  min-height: 44px;
+  white-space: normal;
+  line-height: 1.3;
 }
 
 .btn-primary {
@@ -347,6 +452,11 @@ section {
   margin-bottom: var(--spacing-sm);
 }
 
+.credibility-item p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 /* ==================== Qualifier Section ==================== */
 .qualifier {
   max-width: 800px;
@@ -370,6 +480,11 @@ section {
 
 .qualifier li {
   color: var(--color-text-light);
+}
+
+.qualifier p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 /* ==================== About Section (Optional Component) ==================== */
@@ -459,12 +574,13 @@ section {
 .form-group input,
 .form-group textarea {
   width: 100%;
-  padding: 0.75rem;
+  padding: 1rem;
   border: 1px solid var(--color-border);
   border-radius: 4px;
   font-family: var(--font-sans);
-  font-size: 1rem;
+  font-size: 16px;
   transition: border-color 0.2s ease;
+  min-height: 44px;
 }
 
 .form-group input:focus,
@@ -528,21 +644,67 @@ section {
     --spacing-xl: 4rem;
   }
 
-  .header-content {
-    flex-direction: column;
-    gap: var(--spacing-sm);
-    text-align: center;
+  .site-header {
+    padding: var(--spacing-sm) 0;
   }
 
-  .site-nav {
-    flex-wrap: wrap;
-    justify-content: center;
+  .header-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     gap: var(--spacing-sm);
+  }
+
+  /* Show quick links on mobile */
+  .site-nav-quick {
+    display: flex;
+  }
+
+  /* Show hamburger on mobile */
+  .nav-toggle {
+    display: block;
+  }
+
+  /* Full nav becomes slide-out menu on mobile */
+  .site-nav-full {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 280px;
+    height: 100vh;
+    background: var(--color-background);
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    padding: var(--spacing-xl) var(--spacing-md);
+    flex-direction: column;
+    gap: var(--spacing-md);
+    align-items: flex-start;
+    transition: right 0.3s ease;
+    z-index: 999;
+    overflow-y: auto;
+  }
+
+  .site-nav-full.active {
+    right: 0;
+  }
+
+  .site-nav-full a {
+    font-size: 1.125rem;
+    width: 100%;
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--color-border);
   }
 
   .hero-content {
     grid-template-columns: 1fr;
     gap: var(--spacing-lg);
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero-cta {
+    align-items: center;
   }
 
   .hero-image {
@@ -599,14 +761,49 @@ section {
 
 @media (max-width: 480px) {
   html {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .container {
-    padding: 0 var(--spacing-sm);
+    padding: 0 1.25rem;
   }
 
   .hero h1 {
-    font-size: 1.75rem;
+    font-size: 1.85rem;
+    line-height: 1.15;
+  }
+
+  .hero-content {
+    gap: var(--spacing-md);
+  }
+
+  .btn-primary {
+    max-width: 280px;
+  }
+
+  .secondary-links {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+
+  .footer-contact {
+    font-size: 0.9rem;
+    word-break: break-word;
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .hero h1 {
+    font-size: 1.65rem;
   }
 }
