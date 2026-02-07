@@ -167,9 +167,13 @@ li {
   display: none;
   background: none;
   border: none;
-  padding: var(--spacing-xs);
+  padding: var(--spacing-md);
   cursor: pointer;
   z-index: 1001;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 .hamburger {
@@ -226,6 +230,8 @@ li {
   z-index: 998;
   opacity: 0;
   transition: opacity 0.3s ease;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .nav-overlay.active {
