@@ -10,7 +10,7 @@ description: Start a measurement conversation with Polaris Advisor. Let's discus
 
     <div class="contact-header">
       <div class="advisor-profile">
-        <img src="/assets/images/krishna-kumar.jpg" alt="Krishna Kumar" class="advisor-photo">
+        <img src="{{ '/assets/images/krishna-kumar.jpg' | url }}" alt="Krishna Kumar" class="advisor-photo">
         <div class="advisor-info">
           <h2>Krishna Kumar</h2>
           <p class="advisor-title">Polaris Advisor Program</p>

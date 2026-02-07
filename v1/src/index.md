@@ -9,7 +9,7 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
     <div class="hero-content">
       <div class="hero-text">
         <h1>Are you making decisions with metrics, or starting conversations? </h1>
-        <p class="hero-subtitle">Industry standard metrics frameworks are built for benchmarking, not decision-making. They expect you to implement their frameworks just so you can <em>start</em> a conversation about performance. Decisions? That's not in scope. Why not skip all that? Identify and measure what <em>you</em> need to improve to compete instead. </p>
+        <p class="hero-subtitle">Software industry metrics frameworks measure how you compare to arbitrary benchmarks, but never tell you why they matter to <em>your</em> business. Skip the benchmark conversation. Instead, measure what <em>you</em> need to improve to compete, right now. </p>
         <div class="hero-cta">
           <a href="{{ '/contact/' | url }}" class="btn btn-primary">Start a measurement conversation</a>
           <div class="secondary-links">
