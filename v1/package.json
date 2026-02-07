@@ -1,0 +1,16 @@
+{
+  "name": "polaris-advisor-website",
+  "version": "1.0.0",
+  "description": "Polaris Advisor Program website - static site built with 11ty",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "debug": "DEBUG=Eleventy* eleventy"
+  },
+  "keywords": ["eleventy", "static-site"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
