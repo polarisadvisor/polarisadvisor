@@ -236,11 +236,13 @@ li {
   transition: opacity 0.3s ease;
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
+  pointer-events: none;
 }
 
 .nav-overlay.active {
   display: block;
   opacity: 1;
+  pointer-events: auto;
 }
 
 /* ==================== Footer ==================== */
