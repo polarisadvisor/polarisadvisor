@@ -6,7 +6,7 @@ description: Start a measurement conversation with Polaris Advisor. Let's discus
 
 <section class="contact-intro">
   <div class="container">
-    <h1>Start a measurement conversation</h1>
+    <h1>Let's Talk</h1>
 
     <div class="contact-header">
       <div class="advisor-profile">
@@ -42,7 +42,7 @@ description: Start a measurement conversation with Polaris Advisor. Let's discus
 
 <section class="contact-form-section">
   <div class="container-narrow">
-    <h2>Get in touch</h2>
+    <h2>Tell me a bit about you</h2>
     <form class="contact-form" action="https://formspree.io/f/xnjbqkkr" method="POST">
       <div class="form-group">
         <label for="name">Name</label>

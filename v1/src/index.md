@@ -9,9 +9,9 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
     <div class="hero-content">
       <div class="hero-text">
         <h1>Are you making decisions with metrics, or starting conversations? </h1>
-        <p class="hero-subtitle">Software industry metrics frameworks measure how you compare to arbitrary vendor benchmarks, but never tell you why they matter to <em>your</em> business. Skip the benchmark conversation. Instead, measure what <em>you</em> need to improve to compete, right now. </p>
+        <p class="hero-subtitle">Software industry metrics frameworks measure how you compare to arbitrary vendor benchmarks, but never tell you why they matter to <em>your</em> business. Skip the benchmark conversation. Instead, measure what <em>you</em> need to solve for your concrete pain points, right now. </p>
         <div class="hero-cta">
-          <a href="{{ '/contact/' | url }}" class="btn btn-primary">Start a measurement conversation</a>
+          <a href="{{ '/contact/' | url }}" class="btn btn-primary">Let's Talk</a>
           <div class="secondary-links">
             <a href="{{ site.dispatch.url }}" target="_blank" rel="noopener">Read The Polaris Flow Dispatch</a>
           </div>
@@ -80,7 +80,7 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
 
     <div class="credibility-item">
       <h3>Your Expertise + Mine</h3>
-      <p>I bring expertise in measurement design and tools. You bring deep knowledge of how your business operates. Together, we build measurement systems that explain how your operational processes work and what you need to do to improve them.</p>
+      <p>I bring expertise in measurement design and tools. You bring deep knowledge of how your business operates. Together, we build measurement systems that explain <em>why</em> your operational processes behave the way they do, and what you need to do to improve them.</p>
     </div>
   </div>
 </section>
