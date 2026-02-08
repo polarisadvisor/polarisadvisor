@@ -72,7 +72,7 @@ description: Start a measurement conversation with Polaris Advisor. Let's discus
       <div class="form-group">
         <label class="checkbox-label">
           <input type="checkbox" name="tried-dashboards" value="yes">
-          'I've improved operations but my measurements don't show it'
+          I've improved operations but my measurements don't show it
         </label>
       </div>
 
