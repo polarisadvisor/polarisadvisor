@@ -27,8 +27,6 @@ description: Start a measurement conversation with Polaris Advisor. Let's discus
     <p>Describe your measurement challenge and we'll start a conversation about how Polaris can help.</p>
 
     <form class="contact-form" action="https://formspree.io/f/xnjbqkkr" method="POST">
-      <input type="hidden" name="_next" value="https://polarisadvisor.com/thank-you/">
-
       <div class="form-group">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required>
@@ -42,6 +40,11 @@ description: Start a measurement conversation with Polaris Advisor. Let's discus
       <div class="form-group">
         <label for="organization">Organization</label>
         <input type="text" id="organization" name="organization">
+      </div>
+
+      <div class="form-group">
+        <label for="website">Company website</label>
+        <input type="url" id="website" name="website" placeholder="https://">
       </div>
 
       <div class="form-group">
