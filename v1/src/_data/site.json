@@ -1,14 +1,15 @@
 {
-  "name": "Polaris Advisor Program",
+  "name": "The Polaris Advisor Program",
   "url": "https://polarisadvisor.com",
   "description": "Design measurement systems that fit how your work actually flows",
   "email": "info@polarisadvisor.com",
   "github": {
-    "polaris": "https://github.com/polarisadvisor",
-    "presence": "https://github.com/presence-calculus"
+    "opensource": "https://github.com/presence-calculus",
+    "docs": "https://docs.pcalc.org",
+    "samplepath": "https://samplepath.pcalc.org"
   },
   "dispatch": {
-    "name": "Polaris Flow Dispatch",
-    "url": "https://polarisflowdispatch.substack.com"
+    "name": "The Polaris Flow Dispatch",
+    "url": "https://www.polaris-flow-dispatch.com"
   }
 }

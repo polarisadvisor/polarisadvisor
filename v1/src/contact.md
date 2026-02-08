@@ -13,7 +13,7 @@ description: Start a measurement conversation with Polaris Advisor. Let's discus
         <img src="{{ '/assets/images/krishna-kumar.jpg' | url }}" alt="Krishna Kumar" class="advisor-photo">
         <div class="advisor-info">
           <h2>Krishna Kumar</h2>
-          <p class="advisor-title">Polaris Advisor Program</p>
+          <p class="advisor-title">The Polaris Advisor Program</p>
           <p>I work with organizations to design measurement systems grounded in how their delivery process actually operates. If you're dissatisfied with off-the-shelf metrics and believe context matters, let's talk.</p>
         </div>
       </div>
@@ -26,7 +26,7 @@ description: Start a measurement conversation with Polaris Advisor. Let's discus
     <h2>Get in touch</h2>
     <p>Describe your measurement challenge and we'll start a conversation about how Polaris can help.</p>
 
-    <form class="contact-form" name="contact" method="POST" data-netlify="true">
+    <form class="contact-form" action="https://formspree.io/f/xnjbqkkr" method="POST">
       <div class="form-group">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required>
@@ -56,10 +56,6 @@ description: Start a measurement conversation with Polaris Advisor. Let's discus
 
       <button type="submit" class="btn btn-primary">Send message</button>
     </form>
-
-    <div class="contact-alternative">
-      <p>Or email directly: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-    </div>
   </div>
 </section>
 
@@ -67,9 +63,9 @@ description: Start a measurement conversation with Polaris Advisor. Let's discus
   <div class="container">
     <h3>Explore first?</h3>
     <div class="cta-links">
-      <a href="{{ site.dispatch.url }}" target="_blank" rel="noopener">Read Polaris Flow Dispatch</a>
-      <a href="{{ site.github.presence }}" target="_blank" rel="noopener">Review the Presence Calculus</a>
-      <a href="/open-source/">Explore open-source tools</a>
+      <a href="{{ site.dispatch.url }}" target="_blank" rel="noopener">Read The Polaris Flow Dispatch</a>
+      <a href="{{ site.github.docs }}" target="_blank" rel="noopener">Review The Presence Calculus</a>
+      <a href="{{ site.github.opensource }}" target="_blank" rel="noopener">Explore open-source tools</a>
     </div>
   </div>
 </section>

@@ -13,8 +13,7 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
         <div class="hero-cta">
           <a href="{{ '/contact/' | url }}" class="btn btn-primary">Start a measurement conversation</a>
           <div class="secondary-links">
-            <a href="{{ site.dispatch.url }}">Read Polaris Flow Dispatch</a>
-            <a href="{{ '/open-source/' | url }}">Explore open-source tools</a>
+            <a href="{{ site.dispatch.url }}" target="_blank" rel="noopener">Read The Polaris Flow Dispatch</a>
           </div>
         </div>
       </div>
@@ -31,11 +30,11 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
       <h2>I'm Dr. Krishna Kumar</h2>
       <p>I help software companies design measurement systems that model their operations as they actually are. I work with product, engineering, sales, and operations teams to analyze their processes and find opportunities for improvements, both within and across functions.
         </p>
-        <p>My practice is grounded in <em>The Presence Calculus</em>, a rigorous mathematical approach rooted in stochastic process theory. It produces deterministic, inspectable, context-specific metrics—and lets you reason about cause and effect with confidence.
+        <p>My practice is grounded in <a href="https://docs.pcalc.org">The Presence Calculus</a>, a rigorous mathematical approach rooted in stochastic process theory. It produces deterministic, inspectable, context-specific metrics—and lets you reason about cause and effect with confidence.
         No other approach to measurement in the software industry can claim that.
          </p>
       <p>Through The Polaris Advisor Program, I work directly with function leaders and teams to solve complex measurement problems and design systems to manage your specific operational challenges. </p> 
-        <p> You bring deep knowledge of your business; I bring expertise in measurement design. Together, we create measurement systems your leaders and teams can trust.</p>
+        <p> You bring deep knowledge of your business; I bring expertise in measurement design and custom tooling. Together, we create measurement systems your leaders and teams can trust.</p>
     </div>
   </div>
 </section>
@@ -45,19 +44,19 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
     <div class="props-grid">
       <div class="prop">
         <h3>Custom Measurement Models</h3>
-        <p>I don't sell dashboards or metrics tools, though I've built plenty of them.</p>
+        <p>I don't sell dashboards or metrics tools, though <a href="https://github.com/polarisadvisor/devlake-dashboards">I've built plenty of them</a>.</p>
         <p>I design measurement systems specific to your operational flows—built from your reality, not statistics.</p>
         <p>Your context determines the model, not a tool vendor's template.</p>
       </div>
       <div class="prop">
         <h3>Deterministic Measurement</h3>
-        <p>My approach uses <em>sample-path analysis</em>—a technique rooted in calculus not statistics. It's backed by 50 years of mathematics from operations research. </p>
+        <p>My approach uses <a href="https://samplepath.pcalc.org">sample-path analysis</a>—a technique rooted in calculus not statistics. It's backed by 50 years of mathematics from operations research. </p>
         <p>It produces deterministic measurements and transparent cause-effect explanations, and that leads to better, faster decisions.</p>
         <p>You can skip the endless debates about what the data <em>might</em> be saying.</p>
       </div>
       <div class="prop">
         <h3>Advisory-First Delivery</h3>
-        <p>Sophisticated tools built over years of R&D enable the work. But you're buying advice and expertise, not software.</p>
+        <p>Sophisticated tools <a href="https://github.com/krishnaku">built over years of R&D</a> enable the work. But you're buying advice and expertise, not software.</p>
         <p>My deliverables are insight, a fit-for-context measurement system, instrumentation guidance, and decision processes.</p>
         <p>There is a learning curve to these techniques. I flatten it significantly, giving you actionable advice faster.</p>
       </div>
@@ -71,17 +70,17 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
 
     <div class="credibility-item">
       <h3>I Work in the Open</h3>
-      <p>The underlying theory and tooling behind my practice are published openly. The <a href="{{ site.github.presence }}" target="_blank" rel="noopener">Presence Calculus Project</a> provides the mathematical foundation; the <a href="{{ site.github.polaris }}" target="_blank" rel="noopener">open-source tools</a> let you pressure test the ideas on your own, if you choose. My goal is to help clients who see what these ideas can do—and want to apply them with confidence and expert guidance in their context.</p>
+      <p>The underlying theory and tooling behind my practice are published openly. <a href="{{ site.github.docs }}" target="_blank" rel="noopener">The Presence Calculus Project</a> provides the mathematical foundation; the <a href="{{ site.github.opensource }}" target="_blank" rel="noopener">open-source tools</a> let you pressure test the ideas on your own, if you choose. My goal is to help clients who see what these ideas can do—and want to apply them with confidence and expert guidance in their context.</p>
     </div>
 
     <div class="credibility-item">
       <h3>I Explain the Why</h3>
-      <p><a href="{{ site.dispatch.url }}" target="_blank" rel="noopener">Polaris Flow Dispatch</a> explores my philosophy of measurement, modeling, and analysis of operational processes. Often unorthodox and counter to conventional wisdom in the software industry, but always backed with reasoning and mathematical proof. Rigorous thinking, shared publicly.</p>
+      <p><a href="{{ site.dispatch.url }}" target="_blank" rel="noopener">The Polaris Flow Dispatch</a> explores my philosophy of measurement, modeling, and analysis of operational processes. Often unorthodox and counter to conventional wisdom in the software industry, but always backed with reasoning and mathematical proof. Rigorous thinking, shared publicly.</p>
     </div>
 
     <div class="credibility-item">
       <h3>Your Expertise + Mine</h3>
-      <p>I bring expertise in measurement design. You bring deep knowledge of how your business operates. Together, we build measurement systems that explain how your operational processes work and what you need to do to improve them.</p>
+      <p>I bring expertise in measurement design and tools. You bring deep knowledge of how your business operates. Together, we build measurement systems that explain how your operational processes work and what you need to do to improve them.</p>
     </div>
   </div>
 </section>
