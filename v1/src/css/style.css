@@ -287,7 +287,7 @@ main {
 }
 
 section {
-  padding: var(--spacing-lg) 0;
+  padding: var(--spacing-md) 0;
 }
 
 /* ==================== Hero Section ==================== */
@@ -579,7 +579,7 @@ section {
   color: var(--color-text);
 }
 
-.form-group input,
+.form-group input:not([type="checkbox"]),
 .form-group textarea {
   width: 100%;
   padding: 1rem;
@@ -591,7 +591,7 @@ section {
   min-height: 44px;
 }
 
-.form-group input:focus,
+.form-group input:not([type="checkbox"]):focus,
 .form-group textarea:focus {
   outline: none;
   border-color: var(--color-accent);
@@ -613,6 +613,8 @@ section {
 .checkbox-label input[type="checkbox"] {
   width: auto;
   cursor: pointer;
+  flex-shrink: 0;
+  margin: 0;
 }
 
 .contact-alternative {

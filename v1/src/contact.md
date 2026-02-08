@@ -12,20 +12,37 @@ description: Start a measurement conversation with Polaris Advisor. Let's discus
       <div class="advisor-profile">
         <img src="{{ '/assets/images/krishna-kumar.jpg' | url }}" alt="Krishna Kumar" class="advisor-photo">
         <div class="advisor-info">
-          <h2>Krishna Kumar</h2>
+          <h2>Dr. Krishna Kumar</h2>
           <p class="advisor-title">The Polaris Advisor Program</p>
-          <p>I work with organizations to design measurement systems grounded in how their delivery process actually operates. If you're dissatisfied with off-the-shelf metrics and believe context matters, let's talk.</p>
+          <p>I advise leaders accountable for business outcomes on designing measurement systems that drive focused operational improvements across sales, product, engineering, and operations.</p>
+          <p>My approach works best if you are already familiar with one or more of the mainstream approaches—DORA, SPACE, ToC, Value Stream Management, DevOps—and want to go broader and deeper. My methods rethink <em>measurement</em> from first principles while remaining compatible with, and deepening those <em>practices</em>.</p>
+          <p>If you're new to this space or satisfied with simpler metrics that come with the mainstream approaches, they are likely a better option for you.</p>
+
         </div>
       </div>
     </div>
   </div>
 </section>
 
+<section class="qualifier">
+  <div class="container-narrow">
+    <h2>Are we a fit?</h2>
+    <p>If you believe context matters—that your organization is unique and needs a measurement system that reflects that—we should talk.</p>
+
+    <h3>I am not the right fit if you want:</h3>
+    <ul>
+      <li>An install-a-dashboard solution</li>
+      <li>Simplistic productivity metrics</li>
+      <li>Someone to implement the latest buzzword-compliant metrics framework</li>
+      <li>Someone to help you adopt generic industry benchmarks or scorecards</li>
+      <li>Instant answers without deeply engaging the system to understand how it works</li>
+    </ul>
+  </div>
+</section>
+
 <section class="contact-form-section">
   <div class="container-narrow">
     <h2>Get in touch</h2>
-    <p>Describe your measurement challenge and we'll start a conversation about how Polaris can help.</p>
-
     <form class="contact-form" action="https://formspree.io/f/xnjbqkkr" method="POST">
       <div class="form-group">
         <label for="name">Name</label>
@@ -48,14 +65,14 @@ description: Start a measurement conversation with Polaris Advisor. Let's discus
       </div>
 
       <div class="form-group">
-        <label for="challenge">What measurement challenges are you facing?</label>
+        <label for="challenge">What operational challenge are you trying to solve?</label>
         <textarea id="challenge" name="challenge" rows="6" required></textarea>
       </div>
 
       <div class="form-group">
         <label class="checkbox-label">
           <input type="checkbox" name="tried-dashboards" value="yes">
-          I've tried existing metrics/dashboards and found them lacking
+          'I've improved operations but my measurements don't show it'
         </label>
       </div>
 

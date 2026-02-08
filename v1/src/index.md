@@ -85,20 +85,3 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
   </div>
 </section>
 
-<section class="qualifier">
-  <div class="container">
-    <h2>Is This for You?</h2>
-    <p>The Polaris Advisor Program works best with leaders accountable for business outcomes who have already tried off-the-shelf metrics and mainstream software engineering metrics and found them lacking. If you believe context matters—that your organization's operating system is unique and you need a measurement system that can reflect that—we should talk.</p>
-
-    <h3>I am not the right fit if you want:</h3>
-    <ul>
-      <li>An install-a-dashboard solution</li>
-      <li>Simplistic productivity metrics</li>
-      <li>Someone to implement the latest buzzword-compliant metrics framework</li>
-      <li>Someone to help you adopt generic industry benchmarks or scorecards</li>
-      <li>Instant answers without deeply engaging the system to understand how it works</li>  
-    </ul>
-
-    <p>If you're looking for better measurement techniques that adapt to your business reality, and not the other way around, let's <a href="{{ '/contact/' | url }}">start a conversation</a>.</p>
-  </div>
-</section>
