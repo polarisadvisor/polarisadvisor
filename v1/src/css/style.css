@@ -693,6 +693,11 @@ section {
   font-weight: 500;
 }
 
+.secondary-cta-button {
+  margin-top: var(--spacing-md);
+  text-align: center;
+}
+
 /* ==================== Responsive Design ==================== */
 
 /* Tablet: 2 columns for value props */

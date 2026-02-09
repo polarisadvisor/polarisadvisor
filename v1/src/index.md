@@ -100,7 +100,10 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
     <div class="cta-links">
       <a href="{{ site.dispatch.url }}" target="_blank" rel="noopener">Read The Polaris Flow Dispatch</a>
       <a href="{{ site.github.docs }}" target="_blank" rel="noopener">Review The Presence Calculus</a>
-      <a href="{{ site.github.opensource }}" target="_blank" rel="noopener">Explore open-source tools</a>
+      <a href="{{ site.github.opensource }}" target="_blank" rel="noopener">Our open-source tools</a>
+    </div>
+    <div class="secondary-cta-button">
+      <a href="{{ '/contact/' | url }}" class="btn btn-primary">Let's Talk</a>
     </div>
   </div>
 </section>
