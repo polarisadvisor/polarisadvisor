@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <!-- Polaris Vertical Lockup - Large text version
+       Same visual impact as horizontal, but stacked vertically -->
+
+  <!-- Caliper arms - centered -->
+  <path d="M 220 280 L 300 120"
+        stroke="#1a3a52" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M 380 280 L 300 120"
+        stroke="#1a3a52" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- 4-point star at apex -->
+  <polygon points="300,70 304,110 300,120 296,110" fill="#1a3a52"/>
+  <polygon points="300,170 304,130 300,120 296,130" fill="#1a3a52"/>
+  <polygon points="250,120 292,117 300,120 292,123" fill="#1a3a52"/>
+  <polygon points="350,120 308,117 300,120 308,123" fill="#1a3a52"/>
+  <circle cx="300" cy="120" r="6" fill="#4a7c9e"/>
+  <circle cx="300" cy="120" r="3" fill="#ffffff"/>
+
+  <!-- Single S-curve -->
+  <path d="M 200 230 Q 250 190 300 210 Q 350 230 400 190"
+        stroke="#1a3a52" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Text below - centered, medium sizes -->
+  <!-- "Polaris" -->
+  <text x="300" y="360" text-anchor="middle"
+        font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif"
+        font-size="90"
+        font-weight="600"
+        fill="#1a3a52"
+        letter-spacing="-1">Polaris</text>
+
+  <!-- "ADVISOR" -->
+  <text x="300" y="398" text-anchor="middle"
+        font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif"
+        font-size="32"
+        font-weight="400"
+        fill="#5a6c7d"
+        letter-spacing="5">ADVISOR</text>
+</svg>
