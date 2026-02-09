@@ -113,15 +113,20 @@ li {
 }
 
 .site-logo {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: var(--color-primary);
+  display: inline-block;
   text-decoration: none;
+  transition: opacity 0.2s ease;
 }
 
 .site-logo:hover {
   text-decoration: none;
-  color: var(--color-primary-light);
+  opacity: 0.9;
+}
+
+.logo-lockup {
+  height: 72px;
+  width: auto;
+  display: block;
 }
 
 /* Quick links (visible on mobile) */
