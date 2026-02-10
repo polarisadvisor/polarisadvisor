@@ -60,7 +60,7 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
       <div class="prop">
         <h3>Deterministic Measurement</h3>
         <p>My approach uses <a href="https://samplepath.pcalc.org">sample-path analysis</a>—a technique rooted in calculus not statistics. It's backed by 50 years of operations research, so it's not new. </p>
-        <p>Unlike statistical methods, it produces deterministic measurements and transparent cause-effect explanations—leading to better, faster decisions.</p>
+        <p>Unlike statistical methods, it produces deterministic measurements and transparent cause-effect explanations—leading to unambiguous decisions faster.</p>
         <p>Skip the debates about what the data <em>might</em> mean and decide how to act on it.</p>
       </div>
       <div class="prop">
