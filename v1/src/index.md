@@ -40,7 +40,7 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
       <p>I help software companies design bespoke measurement systems from accurate mathematical models of their operational processes. I work with product, engineering, sales, and operations teams to analyze their processes and find opportunities for improvements, both within and across functions.
         </p>
         <p>My practice is grounded in <a href="https://docs.pcalc.org">The Presence Calculus</a>, a technique rooted in stochastic process theory. It produces deterministic, inspectable, context-specific models and metrics that let you <em>reason about cause and effect with confidence</em>.
-        Measurement techniques in current industry approaches to operations management—DORA, SPACE, ToC, Value Stream Management—cannot claim that.
+        Measurement techniques in current industry approaches to operations management—DORA, SPACE, ToC, Lean/Value Stream Management—cannot claim that.
          </p>
       <p>Through The Polaris Advisor Program, I work directly with function leaders and teams to solve complex measurement and analysis problems and design systems to manage <em>specific</em> operational challenges. </p> 
         <p> You bring deep knowledge of your business; I bring expertise in measurement design and custom tooling. Together, we create decision systems your leaders and teams can trust.</p>
