@@ -61,11 +61,11 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
         <h3>Deterministic Measurement</h3>
         <p>My approach uses <a href="https://samplepath.pcalc.org">sample-path analysis</a>—a technique rooted in calculus not statistics. It's backed by 50 years of operations research, so it's not new. </p>
         <p>Unlike statistical methods, it produces deterministic measurements and transparent cause-effect explanations—leading to better, faster decisions.</p>
-        <p>Skip the debates about what the data <em>might</em> mean and decide what to do.</p>
+        <p>Skip the debates about what the data <em>might</em> mean and decide how to act on it.</p>
       </div>
       <div class="prop">
         <h3>Advisory-First Delivery</h3>
-        <p>Sophisticated tools <a href="https://github.com/krishnaku">built over years of R&D</a> enable the work. But you're buying advice and expertise, not software.</p>
+        <p>Sophisticated tools <a href="https://github.com/krishnaku">built over years of R&D</a> enable the work. But you're buying advice and expertise on how to apply unfamiliar methods, not software.</p>
         <p>My deliverables are insight, a fit-for-context measurement system, instrumentation guidance, and decision processes.</p>
         <p>There is a learning curve to these techniques. I flatten it significantly, giving you actionable advice faster.</p>
       </div>
@@ -79,7 +79,7 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
 
     <div class="credibility-item">
       <h3>I Work in the Open</h3>
-      <p>The underlying theory and tooling behind my practice are published openly. <a href="{{ site.github.docs }}" target="_blank" rel="noopener">The Presence Calculus Project</a> provides the mathematical foundation; the <a href="{{ site.github.opensource }}" target="_blank" rel="noopener">open-source tools</a> let you pressure test the ideas on your own, if you choose. My goal is to help clients see how these techniques expand and sharpen their decision making capabilities—and apply them with expert guidance in their context.</p>
+      <p>The underlying theory and tooling behind my practice are published openly and backed by proven mathematics. <a href="{{ site.github.docs }}" target="_blank" rel="noopener">The Presence Calculus Project</a> provides the mathematical foundation; the <a href="{{ site.github.opensource }}" target="_blank" rel="noopener">open-source tools</a> let you pressure test the ideas on your own, if you choose. My goal is to help clients understand how these techniques expand and sharpen their decision making capabilities—and apply them with expert guidance in their context.</p>
     </div>
 
     <div class="credibility-item">
@@ -89,7 +89,7 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
 
     <div class="credibility-item">
       <h3>Your Expertise + Mine</h3>
-      <p>I bring expertise in measurement design and tools. You bring deep knowledge of how your business operates. Together, we build measurement systems that explain <em>why</em> your processes behave as they do and what you need to improve them.</p>
+      <p>I bring expertise in measurement design and tools. You bring deep knowledge of how your business operates. Together, we build measurement systems that explain <em>why</em> your processes behave as they do and what you need to do, to improve them.</p>
     </div>
   </div>
 </section>
