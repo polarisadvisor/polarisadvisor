@@ -14,6 +14,9 @@ Square profile pictures for social platforms
 - `profile-500x500.png` - High quality
 - `profile-1000x1000.png` - Extra high res
 
+**LinkedIn (chosen assets):**
+- Profile/logo image: `profile-icon-badge-1000.png` (icon-only, high-contrast)
+
 **Use for:** LinkedIn, Twitter/X, Facebook, Instagram profile images
 
 ---
@@ -29,6 +32,9 @@ Wide banner/header images
 - `cover-linkedin-1584x396.png` - LinkedIn banner
 - `cover-twitter-1500x500.png` - Twitter/X header
 - `cover-facebook-820x312.png` - Facebook cover
+
+**LinkedIn (chosen assets):**
+- Cover image: `cover-linkedin-1584x396-hero-dark.png`
 
 **Tips:** Place logo left-aligned with padding, or centered
 
