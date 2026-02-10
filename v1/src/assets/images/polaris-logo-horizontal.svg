@@ -4,36 +4,36 @@
   <!-- Icon on left -->
   <!-- Caliper arms -->
   <path d="M 60 280 L 140 120"
-        stroke="#1a3a52" stroke-width="5" fill="none" stroke-linecap="round"/>
+        stroke="#050c12" stroke-width="7" fill="none" stroke-linecap="round"/>
   <path d="M 220 280 L 140 120"
-        stroke="#1a3a52" stroke-width="5" fill="none" stroke-linecap="round"/>
+        stroke="#050c12" stroke-width="7" fill="none" stroke-linecap="round"/>
 
   <!-- 4-point star at apex -->
-  <polygon points="140,70 144,110 140,120 136,110" fill="#1a3a52"/>
-  <polygon points="140,170 144,130 140,120 136,130" fill="#1a3a52"/>
-  <polygon points="90,120 132,117 140,120 132,123" fill="#1a3a52"/>
-  <polygon points="190,120 148,117 140,120 148,123" fill="#1a3a52"/>
-  <circle cx="140" cy="120" r="6" fill="#4a7c9e"/>
+  <polygon points="140,70 144,110 140,120 136,110" fill="#050c12"/>
+  <polygon points="140,170 144,130 140,120 136,130" fill="#050c12"/>
+  <polygon points="90,120 132,117 140,120 132,123" fill="#050c12"/>
+  <polygon points="190,120 148,117 140,120 148,123" fill="#050c12"/>
+  <circle cx="140" cy="120" r="7" fill="#2a4c66"/>
   <circle cx="140" cy="120" r="3" fill="#ffffff"/>
 
   <!-- Single S-curve -->
   <path d="M 40 230 Q 90 190 140 210 Q 190 230 240 190"
-        stroke="#1a3a52" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+        stroke="#050c12" stroke-width="5" fill="none" stroke-linecap="round"/>
 
   <!-- Text on right - integrated into same SVG -->
   <!-- "Polaris" - top aligns with caliper top, below star horizontal rays -->
   <text x="260" y="235"
         font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif"
-        font-size="140"
-        font-weight="600"
-        fill="#1a3a52"
-        letter-spacing="-1">Polaris</text>
+        font-size="144"
+        font-weight="800"
+        fill="#1b3344"
+        letter-spacing="-1.2">Polaris</text>
 
   <!-- "ADVISOR" - baseline slightly below Polaris -->
   <text x="260" y="288"
         font-family="-apple-system, 'Helvetica Neue', Arial, sans-serif"
-        font-size="50"
-        font-weight="400"
-        fill="#5a6c7d"
-        letter-spacing="5">ADVISOR</text>
+        font-size="52"
+        font-weight="600"
+        fill="#3d5a73"
+        letter-spacing="5.5">ADVISOR</text>
 </svg>
