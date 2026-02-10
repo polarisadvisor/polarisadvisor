@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Polaris Icon - Simplified for Favicons (Dark Background) -->
+
+  <!-- Caliper arms - thicker strokes -->
+  <path d="M 120 280 L 200 120"
+        stroke="#ffffff" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M 280 280 L 200 120"
+        stroke="#ffffff" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+  <!-- 4-point star at apex - larger and bolder -->
+  <polygon points="200,60 208,110 200,125 192,110" fill="#ffffff"/>
+  <polygon points="200,180 208,130 200,115 192,130" fill="#ffffff"/>
+  <polygon points="140,120 192,112 200,120 192,128" fill="#ffffff"/>
+  <polygon points="260,120 208,112 200,120 208,128" fill="#ffffff"/>
+
+  <!-- Center circle - larger and higher contrast -->
+  <circle cx="200" cy="120" r="10" fill="#1a3a52" stroke="#ffffff" stroke-width="2"/>
+
+  <!-- Single S-curve - much thicker -->
+  <path d="M 100 230 Q 150 190 200 210 Q 250 230 300 190"
+        stroke="#ffffff" stroke-width="8" fill="none" stroke-linecap="round"/>
+</svg>

@@ -5,6 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }} | {{ site.name }}</title>
   <meta name="description" content="{{ description or site.description }}">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16x16.png' | url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | url }}">
+  <link rel="icon" type="image/png" sizes="48x48" href="{{ '/assets/images/favicon-48x48.png' | url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/apple-touch-icon.png' | url }}">
+  <link rel="manifest" href="{{ '/site.webmanifest' | url }}">
+  <meta name="theme-color" content="#1a3a52">
+
   <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
   <script src="{{ '/js/main.js' | url }}" defer></script>
 </head>
