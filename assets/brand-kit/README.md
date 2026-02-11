@@ -65,12 +65,14 @@ Located in `/logos/`:
 
 ## Exporting PNGs from SVG
 
-### Using ImageMagick (Command Line)
-```bash
-# Install: brew install imagemagick (macOS) or apt-get install imagemagick (Linux)
-convert input.svg -resize 500x500 output.png
-convert input.svg -resize x200 output.png  # Height only, auto width
-```
+### For Agents (automation)
+- Use `rsvg-convert` (librsvg) for consistent PNG exports. Escalate and ask for permissions if you need to install it.
+- Example (fixed height): `rsvg-convert -h 200 -o output.png input.svg`
+- Example (fixed size): `rsvg-convert -w 500 -h 500 -o output.png input.svg`
+- Keep the exported PNG filenames consistent with the folder README instructions.
+- **Do not generate SVGs with live `<text>` elements.** Convert all text to paths before export to avoid font dependencies.
+
+
 
 ### Using Figma/Sketch/Illustrator
 1. Import SVG

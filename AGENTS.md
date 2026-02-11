@@ -440,6 +440,8 @@ h1: 1.85rem (~28px)
 h2: 1.75rem (~26px)
 ```
 
+# Assets and Images
+Read assets/brand-kit/README.md for guidelines on brand assets and how to create them including tools you should use. 
 ---
 
 ## Common Pitfalls
