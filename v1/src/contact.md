@@ -28,9 +28,12 @@ description: Start a measurement conversation with Polaris Advisor. Let's discus
         <div class="advisor-info">
           <h2>Dr. Krishna Kumar</h2>
           <p class="advisor-title">The Polaris Advisor Program</p>
-          <p>I advise leaders accountable for business outcomes on designing measurement systems that drive focused operational improvements across sales, product, engineering, and operations.</p>
-          <p>My approach works best if you are already familiar with one or more of the mainstream approaches—DORA, SPACE, ToC, Value Stream Management, DevOps—and want to go broader and deeper. My methods rethink <em>measurement</em> from first principles while remaining compatible with, and deepening those <em>practices</em>.</p>
-          <p>If you're new to this space or satisfied with simpler metrics that come with the mainstream approaches, they are likely a better option for you.</p>
+          <p>I help leaders accountable for business outcomes design measurement systems that drive operational improvements across sales, product, engineering, and operations.</p>
+          <p>My approach is useful if you're familiar with metrics in mainstream approaches— Lean/Agile/Kanban, DORA, SPACE, ToC, VSM, DevOps—and find they dont help you make clear decisions. They also work if your processes are homegrown and you lack a coherent measurement strategy. 
+            </p>
+            <p>
+            My methods rethink <em>measurement</em> from first principles, so they work in both cases.
+            If simpler metrics from mainstream approaches satisfy your needs, I may not add value.</p>
 
         </div>
       </div>
@@ -79,7 +82,7 @@ description: Start a measurement conversation with Polaris Advisor. Let's discus
       </div>
 
       <div class="form-group">
-        <label for="challenge">What operational challenge are you trying to solve?</label>
+        <label for="challenge">What pain points are you facing with your operational metrics today?</label>
         <textarea id="challenge" name="challenge" rows="6" required></textarea>
       </div>
 

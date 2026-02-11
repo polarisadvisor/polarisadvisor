@@ -9,7 +9,7 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
     <div class="hero-content">
       <div class="hero-text">
         <h1>Are you making decisions with metrics, or starting conversations? </h1>
-        <p class="hero-subtitle">Software industry metrics frameworks measure how you compare to arbitrary vendor benchmarks, but never tell you why they matter to <em>your</em> business. Skip the generic comparisons. Instead, measure what <em>you</em> need to solve <em>your</em> operational pain points. </p>
+        <p class="hero-subtitle">Software industry metrics frameworks measure how you compare to arbitrary vendor benchmarks, but never tell you why they matter to <em>your</em> business. Skip the metrics FUD. Measure what <em>you</em> need to solve <em>your</em> operational pain points. </p>
         <div class="hero-cta">
           <a href="{{ '/contact/' | url }}" class="btn btn-primary">Let's Talk</a>
         </div>
@@ -37,13 +37,14 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
   <div class="container">
     <div class="intro-content">
       <h2>I'm Dr. Krishna Kumar</h2>
-      <p>I help software companies design bespoke measurement systems from accurate mathematical models of their operational processes. I work with product, engineering, sales, and operations teams to analyze their processes and find opportunities for improvements, both within and across functions.
+      <p>I help software companies design bespoke measurement systems that accurately model specific operational processes. I work with product, engineering, sales, and operations teams to analyze their processes and find opportunities for improvements, both within and across functions.
         </p>
-        <p>My practice is grounded in <a href="https://docs.pcalc.org">The Presence Calculus</a>, a technique rooted in stochastic process theory. It produces deterministic, inspectable, context-specific models and metrics that let you <em>reason about cause and effect with confidence</em>.
-        Measurement techniques in current software industry approaches to operations management—DORA, SPACE, ToC, Lean/Value Stream Management—cannot claim that.
-         </p>
-      <p>Through The Polaris Advisor Program, I work directly with function leaders and teams to solve complex measurement and analysis problems and design systems to manage <em>specific</em> operational challenges. </p> 
-        <p> You bring deep knowledge of your business; I bring expertise in measurement design and custom tooling. Together, we create decision systems your leaders and teams can trust.</p>
+        <p>My practice is grounded in <a href="https://docs.pcalc.org">The Presence Calculus</a>, a modeling technique rooted in stochastic process theory. It produces deterministic, inspectable, context-specific models, and metrics that let you <em>reason about cause and effect with confidence</em>. </p> 
+        <p>Metrics used in standard software industry approaches—Lean/Agile/Kanban, VSM, ToC, DORA, SPACE—cannot claim that. </p> 
+         <p>My methods are <em>process-agnostic</em>. They are a drop-in replacement for the measurement tier in <em>all</em> of these approaches, including loose adaptations, and even work with your own homegrown processes. 
+        </p>
+      <p>Through The Polaris Advisor Program, I work directly with function leaders and teams to solve challenging measurement and analysis problems using models, and design systems to manage <em>specific</em> operational challenges. </p> 
+        <p> You bring deep knowledge of your business; I bring expertise in measurement design and custom tooling. Together, we create <em>decision systems</em> your leaders and teams can trust.</p>
     </div>
   </div>
 </section>
@@ -54,8 +55,8 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
       <div class="prop">
         <h3>Custom Measurement Models</h3>
         <p>I don't sell dashboards or metrics tools, though <a href="https://github.com/polarisadvisor/devlake-dashboards">I've built plenty of them</a>.</p>
-        <p>I design measurement systems specific to your operational flows—built from process models, not statistical approximations.</p>
-        <p>Your context determines the model, not a tool vendor's template.</p>
+        <p>I design measurement systems specific to your operational flows—built from process models, not statistical summaries and reports.</p>
+        <p>Your context determines the model and the metrics we develop, not a tool vendor's template.</p>
       </div>
       <div class="prop">
         <h3>Deterministic Measurement</h3>
@@ -89,7 +90,7 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
 
     <div class="credibility-item">
       <h3>Your Expertise + Mine</h3>
-      <p>I bring expertise in measurement design and tools. You bring deep knowledge of how your business operates. Together, we build measurement systems that explain <em>why</em> your processes behave as they do and what you need to do, to improve them.</p>
+      <p>I bring expertise in measurement design and tools. You bring deep knowledge of how your business operates. Together, we build measurement systems that explain <em>why</em> your processes behave as they do and what you need to do to improve them.</p>
     </div>
   </div>
 </section>
