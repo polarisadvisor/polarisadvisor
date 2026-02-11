@@ -1040,11 +1040,79 @@ section {
 }
 
 @media (max-width: 768px) {
+  /* Form improvements for mobile */
+  .contact-form-section {
+    padding: var(--spacing-md) 0;
+  }
+
+  .form-group {
+    margin-bottom: var(--spacing-md);
+  }
+
+  .form-group label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-group input:not([type="checkbox"]),
+  .form-group textarea {
+    padding: 0.875rem;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+
+  .form-group textarea {
+    min-height: 140px;
+  }
+
+  /* Make checkbox easier to tap */
+  .checkbox-label {
+    padding: 0.5rem 0;
+    gap: 0.75rem;
+    align-items: flex-start;
+  }
+
+  .checkbox-label input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-top: 0.125rem;
+    flex-shrink: 0;
+  }
+
+  /* Full-width submit button on mobile */
+  .contact-form .btn {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.125rem;
+  }
+
+  /* Calendar embed - maximize space on mobile */
   .calendar-embed-container {
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm);
+    margin-top: var(--spacing-md);
+    width: 100vw;
+    margin-left: calc(-1 * var(--spacing-md));
+    margin-right: calc(-1 * var(--spacing-md));
+    max-width: 100vw;
+    border-radius: 0;
+  }
+
+  .calendar-thank-you {
+    padding: 0 var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .calendar-thank-you h3 {
+    font-size: 1.25rem;
+  }
+
+  .calendar-thank-you p {
+    font-size: 0.9375rem;
   }
 
   .calendar-iframe {
-    height: 500px;
+    height: 600px;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
   }
 }
