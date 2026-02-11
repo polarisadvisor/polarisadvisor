@@ -8,7 +8,7 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
   <div class="container">
     <div class="hero-content">
       <div class="hero-text">
-        <h1>Are you making decisions with metrics, or starting conversations? </h1>
+        <h1>Are you driving decisions with metrics, or starting conversations? </h1>
         <p class="hero-subtitle">Software industry metrics frameworks measure how you compare to arbitrary vendor benchmarks, but never tell you why they matter to <em>your</em> business. Skip the metrics FUD. Measure what <em>you</em> need to solve <em>your</em> operational pain points. </p>
         <div class="hero-cta">
           <a href="{{ '/contact/' | url }}" class="btn btn-primary">Let's Talk</a>
