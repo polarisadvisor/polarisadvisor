@@ -100,16 +100,9 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Response received:', response.status, response.statusText);
         if (response.ok) {
           console.log('SUCCESS: Form submitted successfully');
-          // Success - show message and reset form
-          form.reset();
-          showMessage('success', 'Thank you. I\'ll be in touch within 2-3 business days.');
-          submitButton.textContent = originalButtonText;
-          submitButton.disabled = false;
-
-          // Redirect to home after 3 seconds
-          setTimeout(function() {
-            window.location.href = '/';
-          }, 3000);
+          // Success - hide form and show calendar
+          form.style.display = 'none';
+          showCalendarEmbed();
         } else {
           console.log('ERROR: Response not OK');
           // Error from Formspree
@@ -130,11 +123,37 @@ document.addEventListener('DOMContentLoaded', function() {
       function showMessage(type, text) {
         const message = document.createElement('div');
         message.className = `form-message form-message-${type}`;
-        message.textContent = text;
+        message.innerHTML = text;
         form.appendChild(message);
 
         // Scroll message into view
         message.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+
+      function showCalendarEmbed() {
+        // Create success message container
+        const successContainer = document.createElement('div');
+        successContainer.className = 'calendar-embed-container';
+
+        // Add thank you message
+        const thankYouMessage = document.createElement('div');
+        thankYouMessage.className = 'calendar-thank-you';
+        thankYouMessage.innerHTML = '<h3>Thank you for reaching out</h3><p>If you would like to schedule a call with me now, please use the calendar below. Otherwise, I will get back to you in 1-2 business days and we can find a time that works for both of us.</p>';
+        successContainer.appendChild(thankYouMessage);
+
+        // Add embedded calendar iframe
+        const calendarFrame = document.createElement('iframe');
+        calendarFrame.src = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ37Q-W5sjj16iHZnwzHISzm7i53ccSEnbGpQ_tQjsQMnh3gES04INpZyMrzWloM5G_KFHAOFkus?gv=true';
+        calendarFrame.className = 'calendar-iframe';
+        calendarFrame.setAttribute('frameborder', '0');
+        calendarFrame.setAttribute('scrolling', 'yes');
+        successContainer.appendChild(calendarFrame);
+
+        // Insert after the form
+        form.parentNode.insertBefore(successContainer, form.nextSibling);
+
+        // Scroll to the calendar
+        successContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     });
   }

@@ -29,7 +29,7 @@ description: Start a measurement conversation with Polaris Advisor. Let's discus
           <h2>Dr. Krishna Kumar</h2>
           <p class="advisor-title">The Polaris Advisor Program</p>
           <p>I help leaders accountable for business outcomes design measurement systems that drive operational improvements across sales, product, engineering, and operations.</p>
-          <p>My approach is useful if you're familiar with metrics in mainstream approaches— Lean/Agile/Kanban, DORA, SPACE, ToC, VSM, DevOps—and find they dont help you make clear decisions. They also work if your processes are homegrown and you lack a coherent measurement strategy. 
+          <p>My approach is useful if you're familiar with metrics in mainstream approaches— Lean/Agile/Kanban, DORA, SPACE, ToC, VSM, DevOps—and find they don't help you make clear decisions. My methods also work if your processes are homegrown and you lack a coherent measurement strategy. 
             </p>
             <p>
             My methods rethink <em>measurement</em> from first principles, so they work in both cases.

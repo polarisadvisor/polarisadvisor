@@ -9,7 +9,7 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
     <div class="hero-content">
       <div class="hero-text">
         <h1>Are you driving decisions with metrics, or starting conversations? </h1>
-        <p class="hero-subtitle">Software industry metrics frameworks measure how you compare to arbitrary vendor benchmarks, but never tell you why they matter to <em>your</em> business. Skip the metrics FUD. Measure what <em>you</em> need to make decisions, and solve <em>for your</em> operational pain points. </p>
+        <p class="hero-subtitle">Software industry metrics frameworks measure how you compare to arbitrary vendor benchmarks, but never tell you why they matter to <em>your</em> business. Skip the metrics FUD. Measure what <em>you</em> need to make decisions, and solve <em>your</em> operational pain points. </p>
         <div class="hero-cta">
           <a href="{{ '/contact/' | url }}" class="btn btn-primary">Let's Talk</a>
         </div>
@@ -101,7 +101,7 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
     <div class="cta-links">
       <a href="{{ site.dispatch.url }}" target="_blank" rel="noopener">Read The Polaris Flow Dispatch</a>
       <a href="{{ site.github.docs }}" target="_blank" rel="noopener">Read about The Presence Calculus</a>
-      <a href="{{ site.github.opensource }}" target="_blank" rel="noopener">Try our open-source tools</a>
+      <a href="{{ site.github.opensource }}" target="_blank" rel="noopener">Try the open-source tools</a>
     </div>
     <div class="secondary-cta-button">
       <a href="{{ '/contact/' | url }}" class="btn btn-primary">Let's Talk</a>
