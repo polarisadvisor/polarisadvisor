@@ -37,7 +37,7 @@ description: Bespoke measurement systems grounded in how your work flows. Custom
   <div class="container">
     <div class="intro-content">
       <h2>I'm Dr. Krishna Kumar</h2>
-      <p>I help software companies design bespoke measurement systems that accurately model specific operational processes. I work with product, engineering, sales, and operations teams to analyze their processes and find opportunities for improvements, both within and across functions.
+      <p>I help software companies design bespoke measurement systems that accurately model specific operational processes. I work with product, engineering, sales, and operations teams to analyze those processes and find opportunities for improvements, both within and across functions.
         </p>
         <p>My practice is grounded in <a href="https://docs.pcalc.org">The Presence Calculus</a>, a modeling technique rooted in stochastic process theory. It produces deterministic, inspectable, context-specific models, and metrics that let you <em>reason about cause and effect with confidence</em>. </p> 
         <p>Metrics used in standard software industry approaches—Lean/Agile/Kanban, VSM, ToC, DORA, SPACE—cannot claim that. </p> 
