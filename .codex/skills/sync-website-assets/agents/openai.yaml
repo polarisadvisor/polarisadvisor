@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sync Website Assets"
+  short_description: "Sync v1 site assets from brand-kit sources"
+  default_prompt: "Use $sync-website-assets to sync v1/src/assets from brand-kit sources."
