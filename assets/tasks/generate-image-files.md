@@ -1,3 +1,8 @@
+---
+requires:
+  - assets/skills/regenerate-image-files.md
+---
+
 # SVG → Image Regeneration (Agent Task)
 
 This task is the canonical, **bullet‑proof** process for regenerating PNGs from SVGs in this repo. Follow every step in order.
