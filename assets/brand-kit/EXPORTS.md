@@ -2,6 +2,12 @@
 
 All PNG files generated from baseline SVG sources.
 
+## Source Notes
+- Web PNGs are generated from shared SVGs in `logos/` (horizontal light/dark).
+- Social-media PNGs for profile and cover use shared SVGs in `logos/` unless the SVG is folder-specific (e.g., LinkedIn custom layouts).
+- Favicon PNGs are generated from `logos/` (favicon/tiny variants + icon).
+
+
 ## Favicon (6 files)
 - ✅ `favicon-16x16.png` (0.3K)
 - ✅ `favicon-32x32.png` (0.5K)
@@ -86,3 +92,4 @@ cd /path/to/brand-kit
 ```
 
 Or use the provided SVG files with any design tool (Figma, Sketch, Illustrator).
+

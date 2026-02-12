@@ -28,6 +28,7 @@ This is the canonical process for regenerating PNGs (and other raster outputs) f
 - Confirm files exist and are correctly sized.
 - Update `EXPORTS.md` if any output set changes.
 - Always review the `EXPORTS.md` diff after regeneration.
+- Ensure `EXPORTS.md` reflects shared-source usage (e.g., `logos/` as the origin for shared SVGs).
 
 ## 6) Folder READMEs
 - Each folder README should describe outputs **in that folder**.

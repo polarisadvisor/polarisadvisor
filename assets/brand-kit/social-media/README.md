@@ -5,9 +5,9 @@
 ### `/profile/`
 Square profile pictures for social platforms
 
-**Source files:**
-- `polaris-logo.svg` - Compact vertical lockup
-- `polaris-icon.svg` - Icon only
+**Source files (shared in `/logos/`):**
+- `logos/polaris-logo.svg` - Compact vertical lockup
+- `logos/polaris-icon.svg` - Icon only
 
 **Recommended exports:**
 - `profile-400x400.png` - General use
@@ -24,9 +24,9 @@ Square profile pictures for social platforms
 ### `/cover/`
 Wide banner/header images
 
-**Source files:**
-- `polaris-logo-horizontal.svg` - Light backgrounds
-- `polaris-logo-horizontal-dark.svg` - Dark backgrounds
+**Source files (shared in `/logos/`):**
+- `logos/polaris-logo-horizontal.svg` - Light backgrounds
+- `logos/polaris-logo-horizontal-dark.svg` - Dark backgrounds
 
 **Recommended exports:**
 - `cover-linkedin-1584x396.png` - LinkedIn banner
@@ -43,8 +43,8 @@ Wide banner/header images
 ### `/og-image/`
 Open Graph images for link sharing
 
-**Source file:**
-- `polaris-logo-horizontal.svg`
+**Source file (shared in `/logos/`):**
+- `logos/polaris-logo-horizontal.svg`
 
 **Required export:**
 - `og-image-1200x630.png` - Standard OG size

@@ -82,7 +82,7 @@
       ]
     },
     {
-      "source": "social-media/profile/polaris-logo.svg",
+      "source": "logos/polaris-logo.svg",
       "outputs": [
         {
           "path": "social-media/profile/profile-400x400.png",
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "source": "social-media/cover/polaris-logo-horizontal.svg",
+      "source": "logos/polaris-logo-horizontal.svg",
       "outputs": [
         {
           "path": "social-media/cover/cover-twitter-1500x500.png",
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "source": "social-media/cover/polaris-logo-horizontal-dark.svg",
+      "source": "logos/polaris-logo-horizontal-dark.svg",
       "outputs": [
         {
           "path": "social-media/cover/cover-twitter-1500x500-dark.png",
