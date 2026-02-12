@@ -1,0 +1,49 @@
+{
+  "base_dir": ".",
+  "mappings": [
+    {
+      "source": "assets/brand-kit/favicon/favicon-16x16.png",
+      "dest": "v1/src/assets/images/favicon-16x16.png"
+    },
+    {
+      "source": "assets/brand-kit/favicon/favicon-32x32.png",
+      "dest": "v1/src/assets/images/favicon-32x32.png"
+    },
+    {
+      "source": "assets/brand-kit/favicon/favicon-48x48.png",
+      "dest": "v1/src/assets/images/favicon-48x48.png"
+    },
+    {
+      "source": "assets/brand-kit/favicon/apple-touch-icon.png",
+      "dest": "v1/src/assets/images/apple-touch-icon.png"
+    },
+    {
+      "source": "assets/brand-kit/favicon/android-chrome-192x192.png",
+      "dest": "v1/src/assets/images/android-chrome-192x192.png"
+    },
+    {
+      "source": "assets/brand-kit/favicon/android-chrome-512x512.png",
+      "dest": "v1/src/assets/images/android-chrome-512x512.png"
+    },
+    {
+      "source": "assets/brand-kit/logos/polaris-icon.svg",
+      "dest": "v1/src/assets/images/polaris-icon.svg"
+    },
+    {
+      "source": "assets/brand-kit/logos/polaris-logo-horizontal.svg",
+      "dest": "v1/src/assets/images/polaris-logo-horizontal.svg"
+    },
+    {
+      "source": "assets/brand-kit/logos/polaris-logo.svg",
+      "dest": "v1/src/assets/images/polaris-logo.svg"
+    },
+    {
+      "source": "assets/brand-kit/social-media/og-image/og-image-linkedin-1200x630.png",
+      "dest": "v1/src/assets/images/og-image-linkedin-1200x630.png"
+    },
+    {
+      "source": "assets/brand-kit/social-media/og-image/og-image-linkedin-1200x630-light.png",
+      "dest": "v1/src/assets/images/og-image-linkedin-1200x630-light.png"
+    }
+  ]
+}
