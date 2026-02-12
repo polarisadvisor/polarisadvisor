@@ -1,12 +1,12 @@
 # Email Signature Assets
 
-## Source Files
-- `polaris-logo-horizontal.svg` - Light backgrounds
-- `polaris-logo-horizontal-dark.svg` - Dark backgrounds (dark mode email)
+## Source Files (shared in `/logos/`)
+- `logos/polaris-logo-horizontal.svg` - Light backgrounds
+- `logos/polaris-logo-horizontal-dark.svg` - Dark backgrounds (dark mode email)
 
 ## Recommended Export Sizes
 
-Export `polaris-logo-horizontal.svg` to PNG:
+Export `logos/polaris-logo-horizontal.svg` to PNG:
 - `email-logo-150h.png` - Height: 150px, width: auto (compact)
 - `email-logo-200h.png` - Height: 200px, width: auto (standard)
 - `email-logo-250h.png` - Height: 250px, width: auto (large)

@@ -1,12 +1,12 @@
 # Print Assets
 
-## Source Files
+## Source Files (shared in `/logos/`)
 All baseline logo variations:
-- `polaris-logo-horizontal.svg` - Primary horizontal lockup
-- `polaris-logo-horizontal-dark.svg` - For dark backgrounds
-- `polaris-logo-vertical.svg` - Medium vertical lockup
-- `polaris-logo.svg` - Compact vertical lockup
-- `polaris-icon.svg` - Icon only
+- `logos/polaris-logo-horizontal.svg` - Primary horizontal lockup
+- `logos/polaris-logo-horizontal-dark.svg` - For dark backgrounds
+- `logos/polaris-logo-vertical.svg` - Medium vertical lockup
+- `logos/polaris-logo.svg` - Compact vertical lockup
+- `logos/polaris-icon.svg` - Icon only
 
 ## Print Requirements
 

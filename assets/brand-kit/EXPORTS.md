@@ -3,6 +3,8 @@
 All PNG files generated from baseline SVG sources.
 
 ## Source Notes
+- Email signature PNGs are generated from shared SVGs in `logos/`.
+- Print PNGs are generated from shared SVGs in `logos/`.
 - Web PNGs are generated from shared SVGs in `logos/` (horizontal light/dark).
 - Social-media PNGs for profile and cover use shared SVGs in `logos/` unless the SVG is folder-specific (e.g., LinkedIn custom layouts).
 - Favicon PNGs are generated from `logos/` (favicon/tiny variants + icon).
@@ -46,9 +48,9 @@ All PNG files generated from baseline SVG sources.
 - ❌ `cover-linkedin-1584x396.png` - missing (baseline light export)
 - ❌ `cover-linkedin-1584x396-dark.png` - missing (baseline dark export)
 
-### OG Image (1 file)
-- ✅ `og-image-linkedin-1200x630.png` (63K) - LinkedIn OG (dark)
-- ✅ `og-image-linkedin-1200x630-light.png` (58K) - LinkedIn OG (light)
+### OG Image (2 files)
+- ✅ `og-image-linkedin-1200x630.png` (69.1K) - LinkedIn OG (dark)
+- ✅ `og-image-linkedin-1200x630-light.png` (64.5K) - LinkedIn OG (light)
 
 ## Email Signature (5 files)
 - ❌ `email-logo-150h.png` - missing
@@ -58,12 +60,12 @@ All PNG files generated from baseline SVG sources.
 - ❌ `email-logo-250h.png` - missing
 
 ## Web (6 files)
-- ✅ `logo-web-1x.png` (5.4K) - Height: 72px (standard)
-- ✅ `logo-web-2x.png` (11K) - Height: 144px (retina)
-- ✅ `logo-web-3x.png` (17K) - Height: 216px (3x retina)
-- ✅ `logo-web-dark-1x.png` (4.3K)
-- ✅ `logo-web-dark-2x.png` (9.1K)
-- ✅ `logo-web-dark-3x.png` (14K)
+- ✅ `logo-web-1x.png` (5.3K) - Height: 72px (standard)
+- ✅ `logo-web-2x.png` (11.0K) - Height: 144px (retina)
+- ✅ `logo-web-3x.png` (16.9K) - Height: 216px (3x retina)
+- ✅ `logo-web-dark-1x.png` (4.0K)
+- ✅ `logo-web-dark-2x.png` (8.9K)
+- ✅ `logo-web-dark-3x.png` (13.8K)
 
 ## Print (4 files)
 - ❌ `print-horizontal-750w.png` - missing (letterhead)
@@ -74,7 +76,7 @@ All PNG files generated from baseline SVG sources.
 ---
 
 ## Total Export Count
-**31 PNG files** present across favicon, social-media, and web.
+**36 PNG files** present across favicon, social-media, and web.
 
 ## Source Files
 All PNGs generated from:
