@@ -46,6 +46,9 @@ Open Graph images for link sharing
 **Source file (shared in `/logos/`):**
 - `logos/polaris-logo-horizontal.svg`
 
+**Source file (folder-specific):**
+- `og-image/og-image-1200x630.svg`
+
 **Required export:**
 - `og-image-1200x630.png` - Standard OG size
 
