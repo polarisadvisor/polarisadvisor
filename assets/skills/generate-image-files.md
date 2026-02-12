@@ -1,35 +1,45 @@
-# SVG → Image Regeneration Workflow
+# SVG → Image Regeneration (Agent Skill)
 
-This is the canonical process for regenerating PNGs (and other raster outputs) from SVGs in the brand-kit.
+This skill is the canonical, **bullet‑proof** process for regenerating PNGs from SVGs in this repo. Follow every step in order.
 
-## 1) Shared SVG Sources
-- Shared base SVGs live in `assets/brand-kit/logos/`.
-- If an SVG is used in more than one place, keep it in `logos/` and reference it from local folder READMEs.
-- Folder-local SVGs are allowed only if they are **unique to that folder’s PNG outputs** (e.g., LinkedIn-specific cover layouts).
-- Do not duplicate shared SVGs across folders.
+## 1) Confirm Source Map (No SVG Edits)
+- Regeneration must not modify or restructure SVG sources.
 
-## 2) Human Export Contract
-- `assets/brand-kit/EXPORTS.md` is the authoritative human-readable export contract.
-- It must match the actual assets and folder contents.
-- Update it any time outputs change.
+## 2) Update the Automation Map (Authoritative for Scripts)
+- `assets/brand-kit/exports-map.json` is the source→output map for automation.
+- Add or edit entries for every PNG that should be generated.
+- Ensure all new outputs are listed here **before** regeneration.
 
-## 3) Automation Map
-- `assets/brand-kit/exports-map.json` is the authoritative source→output map for scripts.
-- Every automated PNG export must be listed here.
-- Keep it consistent with `EXPORTS.md`.
-
-## 4) Regenerate PNGs
+## 3) Regenerate PNGs (CLI)
 - Script: `assets/brand-kit/scripts/export_pngs.py`
-- Uses `rsvg-convert` (librsvg). If it isn’t on PATH, install librsvg or set `rsvg_convert` in the JSON.
-- Run:
-  - `python3 assets/brand-kit/scripts/export_pngs.py`
+- Uses `rsvg-convert` (librsvg). If missing, install it or set `rsvg_convert` in the JSON.
+- For usage and options, run:
+  - `python3 assets/brand-kit/scripts/export_pngs.py --help`
+- Common modes:
+  - Full regen: `python3 assets/brand-kit/scripts/export_pngs.py`
+  - Only missing: `python3 assets/brand-kit/scripts/export_pngs.py --missing`
+  - Only changed SVGs: `python3 assets/brand-kit/scripts/export_pngs.py --delta-only`
+  - Dry run: `python3 assets/brand-kit/scripts/export_pngs.py --dry-run`
 
-## 5) Verify & Reconcile
-- Confirm files exist and are correctly sized.
-- Update `EXPORTS.md` if any output set changes.
+## 4) Verify Outputs
+- Run: `python3 assets/brand-kit/scripts/export_pngs.py --verify`
+- If anything is missing, fix the map or sources and regenerate.
+
+## 5) Update the Human Contract (Authoritative for Humans)
+- `assets/brand-kit/EXPORTS.md` is the authoritative human‑readable export contract.
+- Update it after every regen:
+  - File list and counts must match actual files.
+  - File sizes must be refreshed if outputs changed.
+  - Mark missing outputs only if they truly don’t exist.
+  - Keep “Source Notes” accurate (shared `logos/` vs folder‑specific sources).
 - Always review the `EXPORTS.md` diff after regeneration.
-- Ensure `EXPORTS.md` reflects shared-source usage (e.g., `logos/` as the origin for shared SVGs).
 
-## 6) Folder READMEs
-- Each folder README should describe outputs **in that folder**.
+## 6) Update Folder READMEs
+- Each folder README must describe outputs in that folder.
 - If a PNG is derived from a shared SVG in `logos/`, the README must point to the shared source.
+- If a folder has custom SVGs, list them explicitly as folder‑specific.
+
+## 7) Final Consistency Check
+- `git status` should show only expected diffs.
+- `EXPORTS.md` and `exports-map.json` must agree.
+
