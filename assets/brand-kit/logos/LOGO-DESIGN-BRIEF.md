@@ -23,7 +23,7 @@ Related properties include The Polaris Flow Dispatch (newsletter/publication) an
 
 ### Typography
 
-System sans-serif stack: `-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif`. The wordmark should use a light weight (300) with wide letter-spacing to match the site's minimal aesthetic.
+Font: Liberation Sans (use files in `../fonts/`). The wordmark should use a light weight (300) with wide letter-spacing to match the site's minimal aesthetic.
 
 ---
 
