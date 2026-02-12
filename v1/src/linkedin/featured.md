@@ -1,7 +1,7 @@
 ---
 layout: linkedin-base.njk
 title: Polaris Advisor Program
-ogTitle: "Driving decisions, or starting conversations?"
+ogTitle: "Are your metrics driving decisions, or starting conversations?"
 description: "Bespoke measurement systems grounded in how your work flows. Stop the metrics debates and start making decisions. Faster."
 permalink: /linkedin/featured/
 ---
