@@ -55,3 +55,17 @@ Open Graph images for link sharing
 
 **Use for:** Website meta tags, LinkedIn/Twitter/Facebook link previews
 **Design tip:** Center logo on colored or gradient background
+
+---
+
+### `/featured/`
+Square thumbnails for LinkedIn Featured items
+
+**Source file (folder-specific):**
+- `featured/featured-linkedin-1200x1200-dark.svg`
+
+**Required exports:**
+- `featured-linkedin-1200x1200-dark.png`
+
+**Use for:** LinkedIn Featured item custom thumbnails
+**Design tip:** Keep the mark centered with generous margins to survive crops

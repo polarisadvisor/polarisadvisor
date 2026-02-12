@@ -321,6 +321,16 @@
           "height": 630
         }
       ]
+    },
+    {
+      "source": "social-media/featured/featured-linkedin-1200x1200-dark.svg",
+      "outputs": [
+        {
+          "path": "social-media/featured/featured-linkedin-1200x1200-dark.png",
+          "width": 1200,
+          "height": 1200
+        }
+      ]
     }
   ]
 }

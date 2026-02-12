@@ -44,6 +44,10 @@
     {
       "source": "assets/brand-kit/social-media/og-image/og-image-linkedin-1200x630-light.png",
       "dest": "v1/src/assets/images/og-image-linkedin-1200x630-light.png"
+    },
+    {
+      "source": "assets/brand-kit/social-media/featured/featured-linkedin-1200x1200-dark.png",
+      "dest": "v1/src/assets/images/featured-linkedin-1200x1200-dark.png"
     }
   ]
 }
