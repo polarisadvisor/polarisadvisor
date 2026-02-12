@@ -1,9 +1,10 @@
-# SVG → Image Regeneration (Agent Skill)
+# SVG → Image Regeneration (Agent Task)
 
-This skill is the canonical, **bullet‑proof** process for regenerating PNGs from SVGs in this repo. Follow every step in order.
+This task is the canonical, **bullet‑proof** process for regenerating PNGs from SVGs in this repo. Follow every step in order.
 
 ## 1) Confirm Source Map (No SVG Edits)
 - Regeneration must not modify or restructure SVG sources.
+- If SVG consolidation or creation is needed, stop and use the separate “create source image” task.
 
 ## 2) Update the Automation Map (Authoritative for Scripts)
 - `assets/brand-kit/exports-map.json` is the source→output map for automation.
@@ -42,4 +43,3 @@ This skill is the canonical, **bullet‑proof** process for regenerating PNGs fr
 ## 7) Final Consistency Check
 - `git status` should show only expected diffs.
 - `EXPORTS.md` and `exports-map.json` must agree.
-
