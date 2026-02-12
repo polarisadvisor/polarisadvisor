@@ -47,7 +47,7 @@ All PNG files generated from baseline SVG sources.
 - ❌ `cover-linkedin-1584x396-dark.png` - missing (baseline dark export)
 
 ### OG Image (1 file)
-- ✅ `og-image-1200x630.png` (63K) - Open Graph standard
+- ✅ `og-image-linkedin-1200x630.png` (63K) - Open Graph standard
 
 ## Email Signature (5 files)
 - ❌ `email-logo-150h.png` - missing

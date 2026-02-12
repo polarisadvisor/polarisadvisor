@@ -47,10 +47,10 @@ Open Graph images for link sharing
 - `logos/polaris-logo-horizontal.svg`
 
 **Source file (folder-specific):**
-- `og-image/og-image-1200x630.svg`
+- `og-image/og-image-linkedin-1200x630.svg`
 
 **Required export:**
-- `og-image-1200x630.png` - Standard OG size
+- `og-image-linkedin-1200x630.png` - LinkedIn OG size (1200×630)
 
 **Use for:** Website meta tags, LinkedIn/Twitter/Facebook link previews
 **Design tip:** Center logo on colored or gradient background

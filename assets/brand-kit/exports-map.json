@@ -252,10 +252,10 @@
       ]
     },
     {
-      "source": "social-media/og-image/og-image-1200x630.svg",
+      "source": "social-media/og-image/og-image-linkedin-1200x630.svg",
       "outputs": [
         {
-          "path": "social-media/og-image/og-image-1200x630.png",
+          "path": "social-media/og-image/og-image-linkedin-1200x630.png",
           "width": 1200,
           "height": 630
         }
