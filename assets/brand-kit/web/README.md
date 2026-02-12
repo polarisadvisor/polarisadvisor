@@ -1,8 +1,9 @@
 # Web Assets
 
 ## Source Files
-- `polaris-logo-horizontal.svg` - Primary (light backgrounds)
-- `polaris-logo-horizontal-dark.svg` - Dark mode version
+Shared sources in `/logos/`:
+- `logos/polaris-logo-horizontal.svg` - Primary (light backgrounds)
+- `logos/polaris-logo-horizontal-dark.svg` - Dark mode version
 
 ## Recommended Uses
 
@@ -14,7 +15,7 @@ Use the SVG files directly in web contexts:
 - Retina-ready
 
 ```html
-<img src="polaris-logo-horizontal.svg" alt="Polaris Advisor" height="72" />
+<img src="../logos/polaris-logo-horizontal.svg" alt="Polaris Advisor" height="72" />
 ```
 
 ### PNG Exports (if needed)
