@@ -19,7 +19,7 @@ All PNG files generated from baseline SVG sources.
 - ✅ `android-chrome-512x512.png` (11.4K)
 ## Social Media
 
-### Profile (13 files)
+### Profile (14 files)
 - ✅ `profile-400x400.png` (10K)
 - ✅ `profile-500x500.png` (13K)
 - ✅ `profile-1000x1000.png` (29K) - High res
@@ -32,7 +32,7 @@ All PNG files generated from baseline SVG sources.
 - ✅ `profile-logo-badge-400.png` (13K)
 - ✅ `profile-logo-badge-500.png` (17K)
 - ✅ `profile-logo-badge-1000.png` (37K)
-- ❌ `profile-icon-500x500.png` - missing (legacy icon-only export)
+- ✅ `profile-icon-500x500.png` (10.3K) - legacy icon-only export
 
 ### Cover (12 files)
 - ✅ `cover-facebook-820x312.png` (29K)
@@ -45,19 +45,19 @@ All PNG files generated from baseline SVG sources.
 - ✅ `cover-linkedin-1584x396-hero-light.png` (24K)
 - ✅ `cover-linkedin-1584x396-hero-light-bold.png` (25K)
 - ✅ `cover-linkedin-1584x396-hero-light-punchy.png` (25K)
-- ❌ `cover-linkedin-1584x396.png` - missing (baseline light export)
-- ❌ `cover-linkedin-1584x396-dark.png` - missing (baseline dark export)
+- ✅ `cover-linkedin-1584x396.png` (20.5K) - baseline light export
+- ✅ `cover-linkedin-1584x396-dark.png` (23.0K) - baseline dark export
 
 ### OG Image (2 files)
 - ✅ `og-image-linkedin-1200x630.png` (69.1K) - LinkedIn OG (dark)
 - ✅ `og-image-linkedin-1200x630-light.png` (64.5K) - LinkedIn OG (light)
 
 ## Email Signature (5 files)
-- ❌ `email-logo-150h.png` - missing
-- ❌ `email-logo-150h-dark.png` - missing
-- ❌ `email-logo-200h.png` - missing
-- ❌ `email-logo-200h-dark.png` - missing
-- ❌ `email-logo-250h.png` - missing
+- ✅ `email-logo-150h.png` (11.2K)
+- ✅ `email-logo-150h-dark.png` (8.9K)
+- ✅ `email-logo-200h.png` (15.2K)
+- ✅ `email-logo-200h-dark.png` (12.3K)
+- ✅ `email-logo-250h.png` (19.1K)
 
 ## Web (6 files)
 - ✅ `logo-web-1x.png` (5.3K) - Height: 72px (standard)
@@ -68,15 +68,15 @@ All PNG files generated from baseline SVG sources.
 - ✅ `logo-web-dark-3x.png` (13.8K)
 
 ## Print (4 files)
-- ❌ `print-horizontal-750w.png` - missing (letterhead)
-- ❌ `print-horizontal-1050w.png` - missing (business card)
-- ❌ `print-horizontal-2100w.png` - missing (large format)
-- ❌ `print-vertical-900h.png` - missing (posters)
+- ✅ `print-horizontal-750w.png` (21.7K) - letterhead
+- ✅ `print-horizontal-1050w.png` (31.5K) - business card
+- ✅ `print-horizontal-2100w.png` (66.9K) - large format
+- ✅ `print-vertical-900h.png` (25.8K) - posters
 
 ---
 
 ## Total Export Count
-**36 PNG files** present across favicon, social-media, and web.
+**48 PNG files** present across favicon, social-media, web, email, and print.
 
 ## Source Files
 All PNGs generated from:
@@ -95,4 +95,3 @@ cd /path/to/brand-kit
 ```
 
 Or use the provided SVG files with any design tool (Figma, Sketch, Illustrator).
-

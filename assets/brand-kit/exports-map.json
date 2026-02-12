@@ -44,6 +44,11 @@
           "path": "favicon/android-chrome-512x512.png",
           "width": 512,
           "height": 512
+        },
+        {
+          "path": "social-media/profile/profile-icon-500x500.png",
+          "width": 500,
+          "height": 500
         }
       ]
     },
@@ -61,6 +66,30 @@
         {
           "path": "web/logo-web-3x.png",
           "height": 216
+        },
+        {
+          "path": "email-signature/email-logo-150h.png",
+          "height": 150
+        },
+        {
+          "path": "email-signature/email-logo-200h.png",
+          "height": 200
+        },
+        {
+          "path": "email-signature/email-logo-250h.png",
+          "height": 250
+        },
+        {
+          "path": "print/print-horizontal-750w.png",
+          "width": 750
+        },
+        {
+          "path": "print/print-horizontal-1050w.png",
+          "width": 1050
+        },
+        {
+          "path": "print/print-horizontal-2100w.png",
+          "width": 2100
         }
       ]
     },
@@ -78,6 +107,14 @@
         {
           "path": "web/logo-web-dark-3x.png",
           "height": 216
+        },
+        {
+          "path": "email-signature/email-logo-150h-dark.png",
+          "height": 150
+        },
+        {
+          "path": "email-signature/email-logo-200h-dark.png",
+          "height": 200
         }
       ]
     },
@@ -98,6 +135,10 @@
           "path": "social-media/profile/profile-1000x1000.png",
           "width": 1000,
           "height": 1000
+        },
+        {
+          "path": "print/print-vertical-900h.png",
+          "height": 900
         }
       ]
     },
@@ -198,6 +239,11 @@
           "path": "social-media/cover/cover-linkedin-1584x396-bg-light.png",
           "width": 1584,
           "height": 396
+        },
+        {
+          "path": "social-media/cover/cover-linkedin-1584x396.png",
+          "width": 1584,
+          "height": 396
         }
       ]
     },
@@ -206,6 +252,11 @@
       "outputs": [
         {
           "path": "social-media/cover/cover-linkedin-1584x396-bg-dark.png",
+          "width": 1584,
+          "height": 396
+        },
+        {
+          "path": "social-media/cover/cover-linkedin-1584x396-dark.png",
           "width": 1584,
           "height": 396
         }
