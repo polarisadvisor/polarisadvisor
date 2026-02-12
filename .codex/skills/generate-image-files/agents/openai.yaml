@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate Image Files"
+  short_description: "Regenerate brand PNGs from SVG sources via export map."
+  default_prompt: "Use $generate-image-files to regenerate PNG exports from the brand SVG sources and update required bookkeeping."
