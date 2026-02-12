@@ -59,9 +59,11 @@ Located in `/logos/`:
 
 ## Typography
 
-- **Font Family**: -apple-system, 'Helvetica Neue', Arial, sans-serif
+- **Font Family**: Liberation Sans (use files in `fonts/`)
 - **"Polaris"**: 600 weight (Semibold), tight letter-spacing
 - **"ADVISOR"**: 400 weight (Regular), uppercase, increased letter-spacing
+
+**Text-to-path conversions:** Use Liberation Sans from `fonts/` to infer glyph dimensions and generate SVG paths. Do not rely on system font stacks.
 
 ## Exporting PNGs from SVG
 
