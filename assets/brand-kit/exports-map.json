@@ -1,0 +1,125 @@
+{
+  "base_dir": "assets/brand-kit",
+  "rsvg_convert": "/opt/homebrew/opt/librsvg/bin/rsvg-convert",
+  "exports": [
+    {
+      "source": "logos/polaris-icon-tiny.svg",
+      "outputs": [
+        {"path": "favicon/favicon-16x16.png", "width": 16, "height": 16}
+      ]
+    },
+    {
+      "source": "logos/polaris-icon-favicon.svg",
+      "outputs": [
+        {"path": "favicon/favicon-32x32.png", "width": 32, "height": 32},
+        {"path": "favicon/favicon-48x48.png", "width": 48, "height": 48}
+      ]
+    },
+    {
+      "source": "logos/polaris-icon.svg",
+      "outputs": [
+        {"path": "favicon/apple-touch-icon.png", "width": 180, "height": 180},
+        {"path": "favicon/android-chrome-192x192.png", "width": 192, "height": 192},
+        {"path": "favicon/android-chrome-512x512.png", "width": 512, "height": 512}
+      ]
+    },
+    {
+      "source": "web/polaris-logo-horizontal.svg",
+      "outputs": [
+        {"path": "web/logo-web-1x.png", "height": 72},
+        {"path": "web/logo-web-2x.png", "height": 144},
+        {"path": "web/logo-web-3x.png", "height": 216}
+      ]
+    },
+    {
+      "source": "web/polaris-logo-horizontal-dark.svg",
+      "outputs": [
+        {"path": "web/logo-web-dark-1x.png", "height": 72},
+        {"path": "web/logo-web-dark-2x.png", "height": 144},
+        {"path": "web/logo-web-dark-3x.png", "height": 216}
+      ]
+    },
+    {
+      "source": "social-media/profile/polaris-logo.svg",
+      "outputs": [
+        {"path": "social-media/profile/profile-400x400.png", "width": 400, "height": 400},
+        {"path": "social-media/profile/profile-500x500.png", "width": 500, "height": 500},
+        {"path": "social-media/profile/profile-1000x1000.png", "width": 1000, "height": 1000}
+      ]
+    },
+    {
+      "source": "social-media/profile/profile-logo-badge-1000.svg",
+      "outputs": [
+        {"path": "social-media/profile/profile-logo-badge-400.png", "width": 400, "height": 400},
+        {"path": "social-media/profile/profile-logo-badge-500.png", "width": 500, "height": 500},
+        {"path": "social-media/profile/profile-logo-badge-1000.png", "width": 1000, "height": 1000}
+      ]
+    },
+    {
+      "source": "social-media/profile/profile-icon-badge-1000.svg",
+      "outputs": [
+        {"path": "social-media/profile/profile-icon-badge-400.png", "width": 400, "height": 400},
+        {"path": "social-media/profile/profile-icon-badge-500.png", "width": 500, "height": 500},
+        {"path": "social-media/profile/profile-icon-badge-1000.png", "width": 1000, "height": 1000}
+      ]
+    },
+    {
+      "source": "social-media/profile/profile-icon-badge-light-1000.svg",
+      "outputs": [
+        {"path": "social-media/profile/profile-icon-badge-light-400.png", "width": 400, "height": 400},
+        {"path": "social-media/profile/profile-icon-badge-light-500.png", "width": 500, "height": 500},
+        {"path": "social-media/profile/profile-icon-badge-light-1000.png", "width": 1000, "height": 1000}
+      ]
+    },
+    {
+      "source": "social-media/cover/polaris-logo-horizontal.svg",
+      "outputs": [
+        {"path": "social-media/cover/cover-twitter-1500x500.png", "width": 1500, "height": 500},
+        {"path": "social-media/cover/cover-facebook-820x312.png", "width": 820, "height": 312}
+      ]
+    },
+    {
+      "source": "social-media/cover/polaris-logo-horizontal-dark.svg",
+      "outputs": [
+        {"path": "social-media/cover/cover-twitter-1500x500-dark.png", "width": 1500, "height": 500},
+        {"path": "social-media/cover/cover-facebook-820x312-dark.png", "width": 820, "height": 312}
+      ]
+    },
+    {
+      "source": "social-media/cover/cover-linkedin-1584x396-bg-light.svg",
+      "outputs": [
+        {"path": "social-media/cover/cover-linkedin-1584x396-bg-light.png", "width": 1584, "height": 396}
+      ]
+    },
+    {
+      "source": "social-media/cover/cover-linkedin-1584x396-bg-dark.svg",
+      "outputs": [
+        {"path": "social-media/cover/cover-linkedin-1584x396-bg-dark.png", "width": 1584, "height": 396}
+      ]
+    },
+    {
+      "source": "social-media/cover/cover-linkedin-1584x396-hero-dark.svg",
+      "outputs": [
+        {"path": "social-media/cover/cover-linkedin-1584x396-hero-dark.png", "width": 1584, "height": 396}
+      ]
+    },
+    {
+      "source": "social-media/cover/cover-linkedin-1584x396-hero-light.svg",
+      "outputs": [
+        {"path": "social-media/cover/cover-linkedin-1584x396-hero-light.png", "width": 1584, "height": 396}
+      ]
+    },
+    {
+      "source": "social-media/cover/cover-linkedin-1584x396-hero-light-bold.svg",
+      "outputs": [
+        {"path": "social-media/cover/cover-linkedin-1584x396-hero-light-bold.png", "width": 1584, "height": 396}
+      ]
+    },
+    {
+      "source": "social-media/cover/cover-linkedin-1584x396-hero-light-punchy.svg",
+      "outputs": [
+        {"path": "social-media/cover/cover-linkedin-1584x396-hero-light-punchy.png", "width": 1584, "height": 396}
+      ]
+    }
+  ]
+}
