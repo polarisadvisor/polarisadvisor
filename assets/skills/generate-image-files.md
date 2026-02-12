@@ -27,6 +27,7 @@ This is the canonical process for regenerating PNGs (and other raster outputs) f
 ## 5) Verify & Reconcile
 - Confirm files exist and are correctly sized.
 - Update `EXPORTS.md` if any output set changes.
+- Always review the `EXPORTS.md` diff after regeneration.
 
 ## 6) Folder READMEs
 - Each folder README should describe outputs **in that folder**.
