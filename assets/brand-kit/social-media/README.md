@@ -49,8 +49,9 @@ Open Graph images for link sharing
 **Source file (folder-specific):**
 - `og-image/og-image-linkedin-1200x630.svg`
 
-**Required export:**
-- `og-image-linkedin-1200x630.png` - LinkedIn OG size (1200×630)
+**Required exports:**
+- `og-image-linkedin-1200x630.png` - LinkedIn OG size (dark)
+- `og-image-linkedin-1200x630-light.png` - LinkedIn OG size (light)
 
 **Use for:** Website meta tags, LinkedIn/Twitter/Facebook link previews
 **Design tip:** Center logo on colored or gradient background
