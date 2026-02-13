@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Brand SVG"
+  short_description: "Add brand SVGs, regenerate exports, sync web assets."
+  default_prompt: "Add a new brand SVG asset and run the export and sync workflows."
